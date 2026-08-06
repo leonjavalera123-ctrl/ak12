@@ -1,0 +1,663 @@
+{
+  "generated": "2026-08-05",
+  "method": "13-agent research workflow: one researcher per era, one adversarial fact-checker per era (every claim re-verified against a second independent source), one completeness critic. 310 web lookups total.",
+  "verification": {
+    "karting": [
+      {
+        "claim": "2015 Easykart 60: won Trofeo Easykart and International Grand Final with his father's team",
+        "verdict": "confirmed",
+        "note": "Mercedes official site (started age 7, dad's team, 2015 Trofeo Easykart + Grand Final), Wikipedia, Pitpass and Minardi Management all agree."
+      },
+      {
+        "claim": "2015 Easykart International Grand Final won from 21st on the grid",
+        "verdict": "corrected",
+        "note": "Sources disagree: Wikipedia prose says 21st, Pitpass bio says 22nd, Mercedes is silent. Note amended to flag both figures rather than assert one."
+      },
+      {
+        "claim": "2018 WSK Champions Cup (60 Mini) winner with Energy Corse",
+        "verdict": "confirmed",
+        "note": "Wikipedia + Minardi Management CV + TKART/Vroomkart Adria coverage; Energy/TM kart confirmed by ACI Sport 2018 coverage."
+      },
+      {
+        "claim": "2018 South Garda Winter Cup (60 Mini) winner with Energy Corse",
+        "verdict": "corrected",
+        "note": "Win and Energy Corse confirmed independently by FormulaRapida's Feb 2018 race report and Minardi Management; class label corrected from '60 Mini' to 'Mini ROK' per Wikipedia's listing of the Winter Cup class."
+      },
+      {
+        "claim": "2018 ROK Cup International Final (Mini ROK) winner",
+        "verdict": "confirmed",
+        "note": "Wikipedia + Minardi Management ('Rok International Final 1st') + Pitpass."
+      },
+      {
+        "claim": "2018 Italian Championship (60 Mini) runner-up to Martinius Stenshorne",
+        "verdict": "confirmed",
+        "note": "Wikipedia bio + Italian Karting Championship champions list (Stenshorne, Parolin, 2018 Mini champion) + ACI Sport 2018 season coverage showing the Stenshorne-vs-Antonelli fight."
+      },
+      {
+        "claim": "2019 South Garda Winter Cup (OKJ) winner",
+        "verdict": "confirmed",
+        "note": "Formula Scout verbatim ('kicked off 2019 with three major trophies in a row: the South Garda Winter Cup...') + Pitpass + Wikipedia."
+      },
+      {
+        "claim": "2019 WSK Super Master Series (OKJ) champion, won as a 13-year-old rookie",
+        "verdict": "corrected",
+        "note": "Title confirmed by Formula Scout, TKART and Pitpass. Age detail softened: born 25 Aug 2006, he was 12 when the spring 2019 title was sealed; note now says 'class rookie' and adds the FS-reported ten Brinke clash in the Sarno decider."
+      },
+      {
+        "claim": "2019 WSK Euro Series (OKJ) champion",
+        "verdict": "confirmed",
+        "note": "Formula Scout + Mercedes driver page + Pitpass."
+      },
+      {
+        "claim": "2019 WSK Open Cup (OKJ) champion",
+        "verdict": "confirmed",
+        "note": "Formula Scout ('winning the Final and Open Cup') + Minardi Management + Pitpass."
+      },
+      {
+        "claim": "2019 WSK Final Cup (OKJ) champion",
+        "verdict": "confirmed",
+        "note": "Formula Scout + Pitpass + Wikipedia."
+      },
+      {
+        "claim": "2019 Italian Karting Championship (OKJ) champion",
+        "verdict": "dropped",
+        "note": "Refuted on balance: Wikipedia's Italian Karting Championship champions list and Nikita Bedrin's racing CV (gb-3.net) credit Bedrin (Tony Kart) as 2019 OKJ Italian champion, and neither Pitpass nor Antonelli's own management (Minardi) list an Italian title in his 2019 record. Formula Scout and the Wikipedia bio do claim it, but the conflict cannot be resolved in Antonelli's favour, so the entry is removed."
+      },
+      {
+        "claim": "2019 FIA European Championship (OKJ) runner-up to Marcus Amand",
+        "verdict": "confirmed",
+        "note": "Formula Scout + Minardi Management ('CIK FIA Euro Series 2nd') + Wikipedia."
+      },
+      {
+        "claim": "2019 European Championship: won the final round at Le Mans",
+        "verdict": "dropped",
+        "note": "Formula Scout's 2019 review explicitly does not mention Le Mans, and no second source was found; detail removed from the notes."
+      },
+      {
+        "claim": "2019 FIA World Championship (OKJ) 5th, qualified 5th of 100, won three heats",
+        "verdict": "confirmed",
+        "note": "Formula Scout verbatim (also 0.165s off pole) + Mercedes driver page (P5 World Championship finish)."
+      },
+      {
+        "claim": "2019-2021 team attributions (Rosberg Racing Academy, then Kart Republic/KR Motorsport)",
+        "verdict": "confirmed",
+        "note": "2019 RRA: Pitpass + Minardi ('Rosberg Motorsport') + Wikipedia. 2020-21: TheRaceBox and Kartcom entry lists show 'KR Motorsport Srl' (the Kart Republic works team); team fields amended to 'Kart Republic (KR Motorsport)'."
+      },
+      {
+        "claim": "2020 FIA European Championship (OK) champion; overall winner of two rounds, second in the other",
+        "verdict": "confirmed",
+        "note": "Formula Scout + TheRaceBox race report (title clinched by winning the Wackersdorf finale, 13 Sep 2020) + eKartingNews headline '2020 FIA European Champions: ... Antonelli – OK'."
+      },
+      {
+        "claim": "Youngest senior European karting champion in history (2020, aged 14)",
+        "verdict": "corrected",
+        "note": "Champion aged 14 on senior debut is multiply confirmed, but the 'youngest in history' superlative appears only on Wikipedia; neither Formula Scout's reviews, the official FIA Karting site, TheRaceBox nor eKartingNews state it. Superlative removed; fact rewritten around the verified age/debut. Also 'two weeks after his birthday' corrected: the title was clinched 13 Sep 2020, 19 days after he turned 14."
+      },
+      {
+        "claim": "2020 WSK Euro Series (OK) champion",
+        "verdict": "confirmed",
+        "note": "Formula Scout (year review + injury article) + Mercedes driver page."
+      },
+      {
+        "claim": "2020 Italian Karting Championship (OK) champion",
+        "verdict": "confirmed",
+        "note": "Italian Karting Championship champions list (2020 OK: Antonelli, Kart Republic) + Wikipedia bio + third-party profiles; caveat added that Formula Scout's 2020 review omits it."
+      },
+      {
+        "claim": "2020 WSK Super Master Series (OK) runner-up to Nikita Bedrin",
+        "verdict": "confirmed",
+        "note": "Kartcom official series report: Bedrin (Ward Racing) 311 pts, Antonelli (KR Motorsport) 280 pts; matches Wikipedia. Points detail added to note."
+      },
+      {
+        "claim": "2020 World Championship: 35th, broke left leg and foot in collision with Maya Weug at Portimao",
+        "verdict": "confirmed",
+        "note": "Formula Scout injury news (broken left tibia and metatarsus, lap-2 collision with Weug's spun kart in the wet final) + FS year review (35th) + Wikipedia + Vroomkart."
+      },
+      {
+        "claim": "Named 2020 FIA Karting Rookie of the Year",
+        "verdict": "confirmed",
+        "note": "Official fiakarting.com news page carries the exact title; also FIA Prize Giving coverage and Mercedes' own posts."
+      },
+      {
+        "claim": "2021 FIA European Championship (OK): defended title, winning the remaining three rounds",
+        "verdict": "confirmed",
+        "note": "Formula Scout (slow start at Genk, then won remaining three rounds) + Mercedes driver page (retained the European title in 2021). Some profile sites say 'five wins from eight races' — FS, the karting specialist, preferred."
+      },
+      {
+        "claim": "2021 WSK Super Master Series runner-up behind teammate Rafael Camara",
+        "verdict": "confirmed",
+        "note": "Kartcom's Lonato finale report explicitly names Camara (KR Motorsport) and 'his teammate... Andrea Kimi Antonelli'; matches Formula Scout and Wikipedia."
+      },
+      {
+        "claim": "2021 WSK Champions Cup runner-up by 0.178s",
+        "verdict": "confirmed",
+        "note": "Runner-up to Camara at Adria while convalescent confirmed by TKART's race report headline + Formula Scout + Wikipedia; the exact 0.178s margin is from Formula Scout only and is now explicitly attributed."
+      },
+      {
+        "claim": "2021 Champions of the Future: 7th",
+        "verdict": "confirmed",
+        "note": "Context (title contender who skipped the Campillos finale for F4; Camara champion) confirmed by the official championskarting.com finale report; the exact 7th place is from Formula Scout only — retained per its reliability for junior stats, with the single-source caveat noted."
+      },
+      {
+        "claim": "2021 FIA World Championship (KZ): 15th, pole for the heats",
+        "verdict": "confirmed",
+        "note": "Formula Scout (pole, struggled in races, 15th in his final kart weekend) + Wikipedia."
+      },
+      {
+        "claim": "Joined Mercedes Junior Programme in 2019 (Wikipedia: signed 2018, announced April 2019)",
+        "verdict": "confirmed",
+        "note": "Mercedes official page says 2019; Wikipedia says announced April 2019 (main text 2018). The fact already flags the discrepancy, which is accurate as stated."
+      }
+    ],
+    "f4-2022": [
+      {
+        "claim": "2022 Italian F4: Champion with Prema Racing",
+        "verdict": "confirmed",
+        "note": "Wikipedia 2022 Italian F4 season page (standings, team, 'Drivers' champion') + Formula Scout title article + acisport.it headline in search results. Two-plus independent sources."
+      },
+      {
+        "claim": "2022 Italian F4: 13 wins",
+        "verdict": "confirmed",
+        "note": "Formula Scout ('breaking Antonelli's record of 13'), RacingNews365 ('13 wins from his 20 starts'), Wikipedia prose ('then-record 13 victories'), and Formula Scout's 22-wins-combined minus 9 ADAC. Multiple independent sources agree."
+      },
+      {
+        "claim": "2022 Italian F4: 14 poles",
+        "verdict": "confirmed",
+        "note": "Counted 14 pole positions from the race-by-race tables on the 2022 season page (1 Imola, 3 Misano, 2 Spa, 3 Vallelunga, 2 Red Bull Ring, 1 Monza, 2 Mugello); matches Wikipedia career table (14) and Mercedes' combined 21 poles minus ADAC's 7."
+      },
+      {
+        "claim": "2022 Italian F4: 15 podiums",
+        "verdict": "confirmed",
+        "note": "Wikipedia career table (15) + Mercedes official bio combined figure of 27 podiums across both 2022 series minus the independently confirmed 12 ADAC podiums = 15."
+      },
+      {
+        "claim": "2022 Italian F4: 362 points, runner-up Alex Dunne 258 (104-point margin)",
+        "verdict": "confirmed",
+        "note": "Season-page standings table quoted verbatim (362 / 258, Dunne 2nd); 362 also in Formula Scout season review. Margin is arithmetic."
+      },
+      {
+        "claim": "Clinched Italian title with two races to spare, lights-to-flag win at Mugello finale, plus rookie classification",
+        "verdict": "confirmed",
+        "note": "Formula Scout Mugello article ('commanding lights-to-flag victory', 'with two races remaining') + Wikipedia season page listing him as Rookies' Champion."
+      },
+      {
+        "claim": "Contested 20 of the season's 21 Italian F4 races",
+        "verdict": "confirmed",
+        "note": "22 races scheduled, Monza R3 cancelled for weather = 21 held; season-page results wikitext shows one blank (Red Bull Ring R1) for Antonelli = 20 starts; career table says 20 races; RacingNews365 says '20 starts'; Formula Scout's 35 combined races = 20 + 15."
+      },
+      {
+        "claim": "2022 ADAC F4: Champion, 313 points; runner-up Taylor Barnard (PHM Racing) 266; margin 47",
+        "verdict": "confirmed",
+        "note": "Wikipedia ADAC season page (313 / 266, PHM Racing) + Formula Scout season review (313 / 266). Margin is arithmetic."
+      },
+      {
+        "claim": "2022 ADAC F4: 9 wins (not 10)",
+        "verdict": "confirmed",
+        "note": "Formula Scout ('his ninth of the season' in the final race), Wikipedia career table (9), RacingNews365 ('nine wins'), and race-by-race finishing positions summing to 9. The dataset's choice of 9 over the ambiguous 10 was correct."
+      },
+      {
+        "claim": "2022 ADAC F4: 7 poles",
+        "verdict": "confirmed",
+        "note": "An initial season-page summary suggested 10, but the raw wikitext shows reversed-grid third races have no pole awarded and Antonelli took exactly 7 (Spa R1-R2, Hockenheim R1-R2... rounds 1-4 races 1-2 minus Nurburgring-Sprint R2); matches Wikipedia career table (7). The '10' was an extraction error."
+      },
+      {
+        "claim": "2022 ADAC F4: 12 podiums",
+        "verdict": "confirmed",
+        "note": "RacingNews365 independently states 'nine wins and three seconds from 15 starts' = 12 podiums; matches Wikipedia career table (12) and race-by-race derivation (1,1,4 / 1,1,1 / 1,1,2 / 2,2,4 / DNE / 1,1,6)."
+      },
+      {
+        "claim": "2022 ADAC F4: 15 races contested of 18; sealed title at Nurburgring finale a week before the Italian crown",
+        "verdict": "confirmed",
+        "note": "Career table 15 races; RacingNews365 '15 starts'; season page shows he skipped the Lausitzring round (round 5); Formula Scout Mugello article confirms ADAC title won 'a week ago at the Nurburgring' (the round-6 GP-circuit finale); Wikipedia prose adds it was with one race to spare."
+      },
+      {
+        "claim": "2022 ADAC F4: won seven of the first eight races despite a reversed-grid race each weekend",
+        "verdict": "confirmed",
+        "note": "Formula Scout season review states it verbatim; race-by-race results corroborate (wins in races 1,2,4,5,6,7,8; 4th in reversed-grid race 3 at Spa)."
+      },
+      {
+        "claim": "2021 Italian F4: 10th overall, 54 points, Prema Powerteam",
+        "verdict": "confirmed",
+        "note": "2021 season page standings (10th, 54, Prema Powerteam) + Wikipedia career table + RacingNews365 prose."
+      },
+      {
+        "claim": "2021 Italian F4: 0 wins, 0 poles, 3 podiums — all at the Monza finale (2nd, 3rd, 3rd)",
+        "verdict": "confirmed",
+        "note": "Season-page results row: round 7 finishes 2, 3, 3; no wins or poles anywhere; career table 0/0/3; RacingNews365 'three podiums'. (Wikipedia prose mentions four rookie-class wins — class wins, not overall, so 0 overall wins stands.)"
+      },
+      {
+        "claim": "2021 debut in September at Red Bull Ring; final three rounds; 9 races; points-eligible entry",
+        "verdict": "confirmed",
+        "note": "2021 calendar: Red Bull Ring round 5 ran 11-12 September 2021, followed by Mugello (Oct 9-10) and Monza (Oct 30-31) — the final three of seven rounds, 9 races; he scored points and was classified, so points-eligible, not a guest."
+      },
+      {
+        "claim": "2022 F4 UAE: 8th overall with 117 points",
+        "verdict": "confirmed",
+        "note": "Wikipedia 2022 F4 UAE season page standings (8th, 117) + Wikipedia career table (both entries totalling 117, 8th)."
+      },
+      {
+        "claim": "2022 F4 UAE: 2 wins, 8 races across Prema Racing and Abu Dhabi Racing by Prema entries",
+        "verdict": "confirmed",
+        "note": "Formula Scout race reports confirm wins in Yas Marina races 1-2 and the race-3 on-track win demoted to third by a pit-exit penalty; career table shows 4 races per entry (2 wins with Prema, 0 with ADR by Prema); Wikipedia prose says he contested two of five rounds (season = 20 races over 5 rounds); Formula Scout confirms he skipped round 2 despite leading the points."
+      },
+      {
+        "claim": "2022 F4 UAE: poles and podiums left null",
+        "verdict": "confirmed",
+        "note": "Wikipedia's career table shows 1 pole and 5 podiums combined (4+1), and Formula Scout's round-1 coverage supports 4 podiums there, but no full second source for the aggregates was found — nulls retained as the cautious choice."
+      },
+      {
+        "claim": "Fact: double champion with 22 wins from 35 races across the two series",
+        "verdict": "confirmed",
+        "note": "Formula Scout season review states it verbatim; independently 13+9=22 wins and 20+15=35 races from per-series sources; Mercedes official bio also gives 22 wins combined."
+      },
+      {
+        "claim": "Fact: 13 Italian F4 wins were a then-record, since surpassed",
+        "verdict": "corrected",
+        "note": "True, but sharpened: Freddie Slater broke the record with his 14th win at Monza in 2024 and finished that season on 15 wins (and 383 points, beating Antonelli's 362). Fact text updated to name the record-breaker and new mark; sourceUrl switched to the Formula Scout record article, corroborated by feederseries.net."
+      }
+    ],
+    "regional-2023": [
+      {
+        "claim": "FRMEC 2023: Champion with Mumbai Falcons Racing Limited",
+        "verdict": "confirmed",
+        "note": "Wikipedia season article + speedsport-magazine.com standings both list Antonelli 1st, Mumbai Falcons."
+      },
+      {
+        "claim": "FRMEC: 3 wins",
+        "verdict": "confirmed",
+        "note": "Speedsport standings (3 wins, most in field), Wikipedia race-by-race table (wins in races 7, 8, 10), and Prema Racing's own article ('three wins and seven podiums'). An initial Wikipedia extraction claiming 6 wins was a misread."
+      },
+      {
+        "claim": "FRMEC: 3 poles",
+        "verdict": "confirmed",
+        "note": "Matches Formula Scout's per-session counting: round-1 Dubai pole, 'second pole of the season' at the Dubai return (round 4), pole for race one at Yas Marina. Caveat noted: race-grid tables credit 5 race-poles (second-best times set extra grids) and Italian Wikipedia says 2; kept 3 per the most journalistically consistent count."
+      },
+      {
+        "claim": "FRMEC: 7 podiums",
+        "verdict": "confirmed",
+        "note": "Prema Racing article ('three wins and seven podiums') + Wikipedia career table; also consistent with Motor Sport Magazine's '18 podium finishes overall across the two series' (7+11)."
+      },
+      {
+        "claim": "FRMEC: 192 points; Barnard 152 (+40), Camara 131 (+61)",
+        "verdict": "confirmed",
+        "note": "Speedsport-magazine.com final standings and Wikipedia agree exactly: 192 / 152 / 131."
+      },
+      {
+        "claim": "FRMEC: 15 races, 5 fastest laps",
+        "verdict": "confirmed",
+        "note": "15 races across 5 rounds per Wikipedia and speedsport race list; 5 fastest laps per English and Italian Wikipedia career tables (no non-Wikipedia source found for the fastest-lap count)."
+      },
+      {
+        "claim": "FRMEC title clinched in penultimate race (race 14 of 15) at Yas Marina despite 10s penalty",
+        "verdict": "confirmed",
+        "note": "Formula Scout race report ('champion with a race to go', classified 14th after 10s penalty) + Formula Scout international season review + Wikipedia ('penultimate race')."
+      },
+      {
+        "claim": "Penalty was for spinning Sebastian Montoya; dropped to 14th; Barnard finished 9th; 43-point lead",
+        "verdict": "confirmed",
+        "note": "Formula Scout: 10s penalty 'for spinning Sebastian Montoya at the final chicane', classified 14th from 10th on the road, Barnard 9th, 185 v 142 = 43 points. The unverifiable embellishment 'Barnard needed a win' was removed."
+      },
+      {
+        "claim": "FRMEC Rookie Cup winner",
+        "verdict": "confirmed",
+        "note": "Emirates247/FRMEC press release ('also claimed the Rookie Cup title') independently corroborates Wikipedia."
+      },
+      {
+        "claim": "Mumbai Falcons won FRMEC teams' title",
+        "verdict": "confirmed",
+        "note": "Wikipedia (338 pts) + Emirates247 press release ('Mumbai Falcons had swooped the Teams title')."
+      },
+      {
+        "claim": "FRECA 2023: Champion with Prema Racing",
+        "verdict": "confirmed",
+        "note": "Official FRECA final standings PDF, Formula Scout, AutoHebdo, motorsport.com all agree."
+      },
+      {
+        "claim": "FRECA: 5 wins",
+        "verdict": "confirmed",
+        "note": "Formula Scout season review (five wins, joint-most with Stenshorne), AutoHebdo (Zandvoort = 'fifth victory'), and official standings PDF shows exactly five 25-point scores (races 8, 10, 12, 16, 18 = Spa/Mugello/Paul Ricard/Monza/Zandvoort R2s). A Wikipedia extraction listing a sixth win at Barcelona was wrong."
+      },
+      {
+        "claim": "FRECA: 4 poles",
+        "verdict": "confirmed",
+        "note": "Wikipedia results table race-by-race (Barcelona R1, Mugello R2, Paul Ricard R2, Monza R2) + Italian Wikipedia career table (4)."
+      },
+      {
+        "claim": "FRECA: 11 podiums",
+        "verdict": "confirmed",
+        "note": "Counting top-3 points scores in the official standings PDF gives 11; consistent with Motor Sport Magazine's 18 combined podiums. Italian Wikipedia's 12 appears to be an error."
+      },
+      {
+        "claim": "FRECA: 300 points",
+        "verdict": "confirmed",
+        "note": "Official FRECA drivers standings PDF (formularegionaleubyalpine.com): Antonelli 300, and the 18 per-race scores sum to 300."
+      },
+      {
+        "claim": "FRECA: 20 races",
+        "verdict": "confirmed",
+        "note": "Official standings PDF has 20 race columns across 10 rounds, all scored; Wikipedia confirms 10 two-race rounds."
+      },
+      {
+        "claim": "FRECA: 5 fastest laps",
+        "verdict": "confirmed",
+        "note": "English and Italian Wikipedia career tables both say 5; no non-Wikipedia corroboration found, flagged as the weakest surviving number."
+      },
+      {
+        "claim": "Stenshorne 2nd on 261 (-39), Tramnitz 3rd on 239 (-61)",
+        "verdict": "confirmed",
+        "note": "Official FRECA standings PDF (261/239) + Stenshorne and Tramnitz Wikipedia career tables."
+      },
+      {
+        "claim": "Title clinched with two races to spare at Zandvoort",
+        "verdict": "confirmed",
+        "note": "Formula Scout race report (penultimate round), Wikipedia ('two races to spare'), AutoHebdo, Prema Racing article."
+      },
+      {
+        "claim": "Zandvoort clincher: started eighth, led by lap three, won by 12.275s",
+        "verdict": "confirmed",
+        "note": "Formula Scout report (lead on lap 3, 12.275s margin, fourth row start) + Formula Scout season review ('dominated the second race in heavy rain from eighth on the grid'); AutoHebdo corroborates ('over 10 seconds', passed pole-sitter Amand within two laps)."
+      },
+      {
+        "claim": "First FRECA win came in the rain-shortened Spa race 2",
+        "verdict": "corrected",
+        "note": "Spa R2 win confirmed (Wikipedia race table; official PDF shows his first 25-pt score at race 8 = Spa R2). Context corrected/expanded: this was the race in which Dilano van 't Hoff was fatally injured; the 'rain-shortened' wording is retained only as the wet, prematurely-ended race."
+      },
+      {
+        "claim": "Stripped of Monza race-1 win for illegal push-to-pass use",
+        "verdict": "confirmed",
+        "note": "Formula Scout season review: lost the race-1 win for push-to-pass overuse and inherited the red-flagged race-2 win ('lost the race he won and won the race he lost'); PDF shows zero points in race 15, 25 in race 16."
+      },
+      {
+        "claim": "Voted driver of the season by FREC team principals",
+        "verdict": "confirmed",
+        "note": "Dedicated Formula Scout article: all 12 FREC teams voted in the poll; Antonelli first."
+      },
+      {
+        "claim": "Prema won FRECA teams' title by 2 points",
+        "verdict": "confirmed",
+        "note": "Official FRECA teams standings PDF: Prema 512, R-ace GP 510."
+      },
+      {
+        "claim": "Double Formula Regional champion in 2023 at age 16-17",
+        "verdict": "confirmed",
+        "note": "Born 25 Aug 2006: FRMEC sealed Feb 2023 (16), FRECA sealed Oct 2023 (17). Multiple sources (Prema, Motor Sport Magazine, motorsport.com)."
+      },
+      {
+        "claim": "First European driver to win multiple F3-level championships in a single year since Alain Prost in 1979",
+        "verdict": "dropped",
+        "note": "Appears only on English Wikipedia (uncorroborated citation not retrievable). Four independent searches found no motorsport outlet making this claim; Prost's 1979 French+European F3 double is real, but the 'first since' framing could not be verified by any second source, so it was removed."
+      }
+    ],
+    "f2-2024": [
+      {
+        "claim": "2024 F2: Prema Racing, 6th place, 113 points",
+        "verdict": "confirmed",
+        "note": "Wikipedia (Andrea Kimi Antonelli) says 6th on 113 points with Prema; independently confirmed by Feeder Series top-10 review ('Andrea Kimi Antonelli (P6, 113 points)', feederseries.net)."
+      },
+      {
+        "claim": "2 wins in 2024 (Silverstone sprint, Budapest feature)",
+        "verdict": "confirmed",
+        "note": "Wikipedia 2024 F2 season article lists exactly two wins (Silverstone sprint R8, Hungary feature R9); independently confirmed by Motorsport Week race reports, fiaformula2.com, Formula Scout, and Feeder Series."
+      },
+      {
+        "claim": "0 poles in 2024",
+        "verdict": "confirmed",
+        "note": "Antonelli's Wikipedia article states he came closest at Baku (0.017s short); Formula Scout's Baku report confirms Verschoor took that pole and Verschoor also held the Monaco pole. An automated summary of the Wikipedia season article suggested a 'Monaco sprint pole' for Antonelli, but F2 sprint races carry no pole and the reading is refuted by official sources — 0 poles stands."
+      },
+      {
+        "claim": "3 podiums in 2024",
+        "verdict": "confirmed",
+        "note": "Wikipedia: 'two victories from three podiums'; Formula Scout calls Silverstone 'his first podium', and the Baku feature 3rd is confirmed by fiaformula2.com and GPblog race reports. (A loose auto-summary of the season article said 'at least 5 podiums mentioned' but that counted other drivers' results; detailed sources agree on 3.)"
+      },
+      {
+        "claim": "Skipped F3, going straight from FRECA (2023 champion) to F2",
+        "verdict": "confirmed",
+        "note": "Wikipedia ('bypassed the international FIA Formula 3 Championship') plus contemporaneous reports from Motorsport Week, RaceFans, and Motorsport.com (Oct 2023). The 'huge jump' quote verified via search: 'From Formula Regional to Formula 2, it will be a huge jump.'"
+      },
+      {
+        "claim": "Silverstone sprint win 6 July 2024: red-flagged, won by over 8 seconds from Maloney and Bortoleto",
+        "verdict": "confirmed",
+        "note": "Autosport and Motorsport Week (both dated 6 July 2024) confirm red flag on lap 4 and an 8.6s winning margin over Maloney (2nd) with Bortoleto passing Maini for 3rd at the final corner. Margin tightened from 'over 8 seconds' to the precise 8.6s. Age of 17y 10m 11d follows from the confirmed 25 Aug 2006 birthdate."
+      },
+      {
+        "claim": "Budapest feature win 21 July 2024 from 7th on the grid, aged 17",
+        "verdict": "confirmed",
+        "note": "Formula Scout: 'won the feature race from seventh on the grid. At that point he was still 17 years old.' Motorsport Week (21 July 2024) confirms the date and adds a 12-second winning margin over Martins — Feeder Series notes it was the season's largest, added to the fact."
+      },
+      {
+        "claim": "Youngest multiple race winner in F2 series history",
+        "verdict": "confirmed",
+        "note": "Mercedes driver page: 'becoming the youngest multiple winner in series history after wins at Silverstone and Budapest'; independently worded the same on formulaonehistory.com ('youngest multiple-winner in F2 history'). Checked against the obvious rival case — Bearman's 2023 Baku double came at ~17y 11m, older than Antonelli's 17y 10m 26d at Budapest — so the superlative survives."
+      },
+      {
+        "claim": "Formula Scout review: Silverstone win with fastest lap, out-qualified Bearman 9-5, 4th best average race pace",
+        "verdict": "confirmed",
+        "note": "Opened the cited Formula Scout Top 50 article directly: it states 'a sprint race win with fastest lap', 'won the qualifying fight against his team-mate nine to five', and 'average race pace across the season was the fourth best in the field' — the attribution is accurate verbatim."
+      },
+      {
+        "claim": "Missed maiden pole by 0.017s to Verschoor in Baku; 3rd in Baku feature",
+        "verdict": "confirmed",
+        "note": "fiaformula2.com qualifying report, Formula Scout (1:54.857, 0.017s gap), and GPblog/fiaformula2 feature reports (Verschoor won, Martins 2nd, Antonelli 3rd) all agree. Source URL swapped from Wikipedia to Formula Scout's dedicated report as the stronger primary."
+      },
+      {
+        "claim": "Bearman finished 12th; Bortoleto champion with Invicta Racing",
+        "verdict": "confirmed",
+        "note": "Wikipedia (Antonelli '38 points ahead of teammate Bearman in twelfth') plus independent search-verified reports of Bearman 12th on 75 points (he missed rounds for F1 duty); Wikipedia 2024 F2 season article confirms Bortoleto won the title for Invicta Racing as the fourth rookie champion. Bearman's 75 points added to the entry note."
+      },
+      {
+        "claim": "Mercedes announcement Saturday 31 August 2024, six days after his 18th birthday, one day after crashing Russell's W15 in Monza FP1",
+        "verdict": "confirmed",
+        "note": "RACER, Auto Action, and Frontstretch articles all dated 31 Aug 2024 (a Saturday); PlanetF1, Motorsport.com, and Grandprix247 (30 Aug 2024) confirm he crashed George Russell's W15 about 10 minutes into FP1 at 52g at Parabolica/Curva Alboreto (same corner, renamed 2021). Birthday math (25 Aug + 6 days) checks out."
+      }
+    ],
+    "f1-records": [
+      {
+        "claim": "2025 season: 7th in the WDC with 150 points for Mercedes",
+        "verdict": "confirmed",
+        "note": "formula1.com 2025 standings plus RacingNews365/FormulaOneHistory search results and Wikipedia all agree: 7th, 150 points, highest-scoring rookie of 2025."
+      },
+      {
+        "claim": "2025: three podiums — Canada 3rd, Sao Paulo 2nd, Las Vegas",
+        "verdict": "confirmed",
+        "note": "Motorsport.com season recap and formula1.com (Palmer and Wolff articles) confirm all three; Las Vegas detail firmed up — crossed the line 4th from 17th on the grid, 5s penalty dropped him to 5th, McLaren disqualifications promoted him to 3rd."
+      },
+      {
+        "claim": "2025: 0 wins, 0 GP poles; Miami sprint pole not counted as a GP pole",
+        "verdict": "confirmed",
+        "note": "Wikipedia career infobox shows 6 wins and 6 poles total, all accrued in 2026; multiple outlets describe the Miami 2025 pole as sprint-qualifying pole only."
+      },
+      {
+        "claim": "Sao Paulo 2025: 2nd in the sprint 'from his first front-row start'",
+        "verdict": "corrected",
+        "note": "Sprint P2 and GP P2 both confirmed (25-point weekend, biggest haul of his season), but no second source verified the 'first front-row start' qualifier — that clause was removed from the notes."
+      },
+      {
+        "claim": "2026: leads WDC with 219 points after Hungary (26 July); Hamilton 169, Russell 160",
+        "verdict": "confirmed",
+        "note": "RacingNews365, Forbes and GPblog standings after the Hungarian GP: Antonelli 219, 50 clear of Hamilton, who is 9 clear of Russell — exactly matching 169/160 and the 59-point gap to Russell."
+      },
+      {
+        "claim": "2026: six wins — China 15 Mar, Japan 29 Mar, Miami 3 May, Canada 24 May, Monaco 7 Jun, Belgium 19 Jul",
+        "verdict": "confirmed",
+        "note": "Each win confirmed by at least two of: formula1.com race reports, Al Jazeera (China 15 Mar, Japan 29 Mar, Belgium 19 Jul), Wikipedia (Canada 24 May), PBS/RaceFans (Monaco). F1.com's Belgium video explicitly calls it his 'sixth win in 2026'."
+      },
+      {
+        "claim": "2026: six poles — China, Japan, Miami, Monaco, Britain, Belgium",
+        "verdict": "confirmed",
+        "note": "China (formula1.com qualifying report), Japan (Al Jazeera: 'pole position for the second straight race'), Miami (Wikipedia: first driver to convert his first three poles into wins), Monaco (grand chelem requires pole), Britain (formula1.com/Motorsport.com), Belgium (fia.com). Total of six matches the Wikipedia career infobox."
+      },
+      {
+        "claim": "British GP 2026: pole did not convert, wheel-shield damage, classified 15th",
+        "verdict": "corrected",
+        "note": "Pole and left wheel-shield failure confirmed (formula1.com, Sky Sports, Crash.net), but the official formula1.com race report says he 'was classified down in P16 after his five-second penalty' for track limits; Wikipedia's bio says 15th — official source preferred, so corrected to 16th."
+      },
+      {
+        "claim": "2026 podium count of 9 (derived from career total 12 minus 3 in 2025)",
+        "verdict": "confirmed",
+        "note": "Wikipedia infobox career podiums = 12 with 3 in 2025; the nine 2026 podiums are now itemized rather than derived: 6 wins + 2nd Australia (F1.com/ESPN/Sky, Mercedes 1-2) + 3rd Austria (Wikipedia season-by-season) + 3rd Hungary (RacingNews365/GPblog, started 7th)."
+      },
+      {
+        "claim": "Mercedes retained Russell-Antonelli for 2026, and Antonelli is also retained for 2027",
+        "verdict": "confirmed",
+        "note": "2026 line-up announcement confirmed (formula1.com, Oct 2025). 2027 confirmed by grandprix.com, GPFans and Motorsport.com — Russell's option exercised around late June 2026, keeping him with Antonelli for a third consecutive year. Timing described in press as after the Spanish GP rather than Wikipedia's 'ahead of the British GP'; wording softened."
+      },
+      {
+        "claim": "Monza 2024 FP1 debut: fastest lap early, then spun at Parabolica and crashed ~10 minutes in (30 Aug 2024)",
+        "verdict": "confirmed",
+        "note": "Motorsport.com (cited source) independently corroborated by RACER ('crashes five laps into Mercedes debut', 30 Aug 2024) and formula1.com video coverage; he had initially set the session's fastest time before the Parabolica crash 10 minutes in."
+      },
+      {
+        "claim": "Monza impact 52g; Mexico 2024 FP1 P12 with floor damage from debris; Abu Dhabi test 62 laps, fifth-fastest",
+        "verdict": "confirmed",
+        "note": "52G impact confirmed by Motorsport.com's speed-data analysis; Mexico P12 with floor damage from debris on the straight confirmed by Motorsport.com and RacingNews365 (19 laps, +1.202s); Abu Dhabi test confirmed by RacingNews365 and Motorsport Week (62 laps, 5th, 1:23.873). Added context: he was unwell and Vesti covered the morning session."
+      },
+      {
+        "claim": "Australian GP 2025 debut: 16th to 4th, penalty overturned, second-youngest points scorer",
+        "verdict": "confirmed",
+        "note": "ESPN, formula1.com, RACER and PlanetF1 all confirm: 5s unsafe-release penalty rescinded via Mercedes Right of Review, restored to 4th; second-youngest points scorer at 18y 6m 19d behind Verstappen (2015 Malaysia). Race date 16 March 2025 confirmed."
+      },
+      {
+        "claim": "Japan 2025: youngest ever to lead a race and set fastest lap; 1:30.965 lap record on lap 50; finished 6th",
+        "verdict": "confirmed",
+        "note": "formula1.com FACTS AND STATS ('youngest ever race leader and fastest lap holder') plus SportsOrca: led at 18y 224d for 10 laps, 1:30.965 on hards on lap 50 — fastest race lap ever at Suzuka — and finished P6."
+      },
+      {
+        "claim": "Miami 2025 sprint pole: 18y 8m 7d, beat Piastri by 0.045s, broke Vettel's 2008 record (21y 2m 11d) by 2+ years, sixth GP weekend",
+        "verdict": "corrected",
+        "note": "Record confirmed by ESPN, GMA News and Flashscore: youngest polesitter in any F1 format, 1:26.482, 0.045s over Piastri, sixth GP weekend, margin over two years. Antonelli's age 18y 8m 7d checks arithmetically (born 25 Aug 2006). Vettel's benchmark corrected: sources give 21 years and 73 days (Monza 2008), not '21y 2m 11d'."
+      },
+      {
+        "claim": "Canada 2025: first podium at 18y 294d, third-youngest behind Verstappen and Stroll, first Italian on podium since Trulli 2009, held off Piastri, Russell won",
+        "verdict": "corrected",
+        "note": "formula1.com FACTS AND STATS independently confirms age 18y 294d, third-youngest behind Verstappen and Stroll, first Italian since Trulli (2009 Japanese GP), Russell winning, 15 June 2025. The 'holding off Piastri' clause could not be verified by a second source and was removed."
+      },
+      {
+        "claim": "China 2026: maiden win from pole; youngest GP polesitter ever, second-youngest GP winner, first Italian winner since Fisichella Malaysia 2006",
+        "verdict": "confirmed",
+        "note": "formula1.com qualifying and race reports plus Al Jazeera (15 Mar 2026) and Malay Mail: youngest-ever GP polesitter breaking Vettel's 2008 Monza record; second-youngest winner behind only Verstappen; formula1.com's Fisichella reaction piece confirms first Italian GP winner in 20 years."
+      },
+      {
+        "claim": "Japan 2026: youngest WDC leader at 19y 216d, Italy's first championship leader since Fisichella 2005",
+        "verdict": "confirmed",
+        "note": "Youngest-ever championship leader confirmed by NBC News, RACER, Al Jazeera and silverstone.co.uk (breaking Hamilton's 2007 rookie mark); RACER confirms first Italian leader since Fisichella after the 2005 Australian GP. Exact age 19y 216d is arithmetically exact for 29 Mar 2026 (born 25 Aug 2006). Nuance added: he won from pole after dropping to sixth at the start."
+      },
+      {
+        "claim": "Monaco 2026 (7 June): youngest Monaco winner and youngest ever grand chelem",
+        "verdict": "confirmed",
+        "note": "PBS News confirms youngest Monaco GP winner (19y 9m 13d); RaceFans (10 Jun 2026) confirms he 'smashes record for youngest-ever grand slam'. It was also his fifth consecutive win. June 2026 date consistent with RaceFans publication date."
+      },
+      {
+        "claim": "Belgium 2026 (19 July): win from pole, passed Leclerc lap 34, sixth win, lead 45 points over Hamilton, Russell retired after lap-1 collision",
+        "verdict": "confirmed",
+        "note": "Wikipedia's 2026 Belgian GP article, formula1.com race report and VAVEL agree on every element: pole (also fia.com), repassed Leclerc on lap 34, won by under two seconds, sixth win of season and career, Russell out in an opening-lap collision with Hamilton, championship lead extended to 45 over Hamilton."
+      }
+    ],
+    "bio": [
+      {
+        "claim": "Born 25 August 2006 in Bologna, Emilia-Romagna; Mercedes F1 driver, car #12, F1 race debut 2025 (Australian GP)",
+        "verdict": "confirmed",
+        "note": "Wikipedia (en.wikipedia.org/wiki/Andrea_Kimi_Antonelli) confirms birth date/place, car #12, and debut at the 2025 Australian GP; independently corroborated by Mercedes' official driver page (mercedesamgf1.com/drivers) and F1.com/Top Gear coverage of his 2025 debut."
+      },
+      {
+        "claim": "Mother Veronica Pomaro in motorsport since 1997; younger sister named Maggie",
+        "verdict": "confirmed",
+        "note": "Wikipedia states mother Veronica Pomaro has been involved in motorsport since 1997 and names sister Maggie; independently repeated by driver-profile sites (f1everything.com) and Sportskeeda's parents feature. Second sourcing partly derivative of Wikipedia but consistent across multiple outlets."
+      },
+      {
+        "claim": "Father Marco Antonelli is a sportscar racing driver and owner of San Marino-based AKM Motorsport",
+        "verdict": "confirmed",
+        "note": "Marco Antonelli's own Wikipedia article confirms he is a racing driver (Superturismo/ETCC, GT3 gentleman driver) and owner of AKM Motorsport, and Kimi's father. Kimi's Wikipedia article and EssentiallySports both describe AKM as San Marino-based (AKM founded 2020 with Dino Chiesa; Marco's original Antonelli Motorsport dates to 1993)."
+      },
+      {
+        "claim": "Not named after Kimi Raikkonen; name suggested by family friend Enrico Bertaggia",
+        "verdict": "confirmed",
+        "note": "Wikipedia and Sportskeeda both independently report Antonelli's own statements that the name is not a Raikkonen reference and was suggested by Enrico Bertaggia because his parents wanted a foreign-sounding name to pair with Andrea."
+      },
+      {
+        "claim": "Car #12 tribute to Senna ('It is because of Ayrton', Lotus 1985-87), plus used since F4 and was 12 when joining Mercedes junior programme",
+        "verdict": "confirmed",
+        "note": "Verified verbatim in the Mercedes interview (mercedesamgf1.com) and independently by RacingNews365, which quotes all three reasons: 'It is because of Ayrton', 'From F4 I started to use 12 straight away and it worked pretty well', and 'I was also 12 years old when I joined the Mercedes junior programme'. Senna's #12 Lotus years 1985-87 confirmed in both."
+      },
+      {
+        "claim": "Aged seven, hidden in a stack of tyres on a trolley with an umbrella to sneak into the Hockenheim 2014 paddock",
+        "verdict": "confirmed",
+        "note": "Quote verified on mercedesamgf1.com (interview part one, age seven stated); independently covered by F1.com ('Antonelli reveals sneaky first F1 paddock experience after hiding inside stack of tyres') and RacingNews365, which add that his father Marco was racing in Porsche Supercup at the 2014 German GP."
+      },
+      {
+        "claim": "Recruited to Mercedes junior programme in 2018 (F1.com); Wolff: 'since he was 11'; Wikipedia says April 2019 aged 12",
+        "verdict": "confirmed",
+        "note": "F1.com's Wolff exclusive states Mercedes recruited him in 2018; the exact Wolff quote 'Kimi's been in our junior programme since he was 11' verified via f1i.com; Wikipedia and Mercedes' own driver page say he joined in April 2019 aged 12, and Antonelli himself says he was 12. The dataset's caveat that sources differ is accurate and should be retained."
+      },
+      {
+        "claim": "Wolff quotes: 'Kimi will be the real deal in a while, maybe not yet' and karting comparison to Verstappen/Hamilton/Russell/Norris ('he was one of them')",
+        "verdict": "confirmed",
+        "note": "Both quotes verified directly in the cited F1.com article: 'Kimi will be the real deal in a while, maybe not yet' and 'he was one of them in the same way Max was in the past, or George or Lando or Lewis'."
+      },
+      {
+        "claim": "Passed Italian road driving test late January 2025, ~six weeks before F1 debut; 'Mission completed'; after F1 test miles and FP1 debut at Monza 2024",
+        "verdict": "confirmed",
+        "note": "Independently confirmed by France24 (dated 28 Jan 2025, 'Mission complete' AFP wire), CNN, ESPN, and Top Gear ('just six weeks before his F1 debut' in Australia; already held an F1 Super Licence). FP1 weekend debut at Monza 2024 confirmed by F1.com ('Antonelli to make F1 weekend debut at Monza as Mercedes confirm FP1 outing'). Minimum driving age 18 in Italy confirmed by Top Gear/CNN."
+      },
+      {
+        "claim": "Studied international relations and marketing at ITCS Gaetano Salvemini, Casalecchio di Reno; learned English at race weekends, German after joining Mercedes",
+        "verdict": "confirmed",
+        "note": "Wikipedia states this; AP coverage (via lancasteronline/Outlook) independently names 'public technical and commercial high school Gaetano Salvemini' in Casalecchio di Reno, and the school itself offers the 'Relazioni internazionali e marketing' programme. ESPN notes English as his easiest subject."
+      },
+      {
+        "claim": "Passed final graduation exams June 2025, right after first F1 podium (3rd, 2025 Canadian GP); stress quote",
+        "verdict": "confirmed",
+        "note": "ESPN (24 June 2025) verified with exact quote 'I was fairly stressed, because I didn't have much time to study. But I did my best.'; independently confirmed by AP syndication and F1.com ('Finishing exams a big relief... Canada podium'). Wikipedia confirms first podium was 3rd at the 2025 Canadian GP. He flew home from Montreal, skipping the F1 movie premiere, for written and oral exams."
+      },
+      {
+        "claim": "Favourite circuits include Imola and Mugello, ~30 and ~50 minutes from home",
+        "verdict": "confirmed",
+        "note": "Verified verbatim in the cited Mercedes interview ('I really like Imola and Mugello', Imola ~30 min, Mugello ~50 min from home). Self-reported preference from the official team source; Imola-as-home-race proximity corroborated by ESPN's Emilia-Romagna GP coverage (he invited classmates to the Imola paddock)."
+      }
+    ]
+  },
+  "critique": {
+    "gaps": [
+      {
+        "description": "The F4 2022 era is missing a major title: Antonelli won the gold medal in the 2022 FIA Motorsport Games Formula 4 Cup for Team Italy at Circuit Paul Ricard (October 2022). He was fastest in both practice sessions and qualifying, won the Qualification Race, and took the Main Race by 6.902 seconds for a clean-sweep weekend — a national-team gold that contemporary coverage explicitly grouped with his Italian and ADAC F4 crowns as his third 2022 achievement. Confirmed by Formula Scout, Motorsport.com, fia.com and fiamotorsportgames.com.",
+        "sourceUrl": "https://formulascout.com/antonelli-wins-motorsport-games-f4-cup-gold-medal-for-italy/100401",
+        "suggestion": "Add an entry to the f4-2022 era: series 'FIA Motorsport Games Formula 4 Cup (Team Italy)', year 2022, result 'Gold medal', with notes on the Paul Ricard sweep (fastest in practice/qualifying, won both races, 6.902s main-race margin) and that it was Italy's second consecutive F4 Cup gold after Andrea Rosso in 2019."
+      },
+      {
+        "description": "2022 Italian motorsport honours are absent: after the F4 double and the Motorsport Games gold, Antonelli received the Casco d'Oro (Autosprint's Golden Helmet) and a Volante ACI award at the combined Caschi d'Oro Autosprint / Volanti ACI ceremony on 21 December 2022 at the PalaCongressi — held in his home city of Bologna. ACI Team Italia's own site covers the awards. Wikipedia also lists him as ACI's driver of the year for 2022.",
+        "sourceUrl": "https://aciteamitalia.it/aci-team-italia-ai-caschi-doro-autosprint-e-volanti-aci-2022/",
+        "suggestion": "Add a fact to the f4-2022 era noting the Casco d'Oro / Volante ACI honours (21 Dec 2022, Bologna ceremony) capping his double-title season; verify the exact award category names against the aciteamitalia.it and Autosprint pages before publishing."
+      },
+      {
+        "description": "The karting era claims years 2014-2021 but has zero entries for 2016 and 2017, leaving a two-year hole between the 2015 Easykart titles and the 2018 Energy Corse season. Wikipedia's biography records 2016 podium finishes in the Italian Cup and the Trofeo delle Industrie (60 Mini), a third place in the 2017 WSK Super Master Series 60 Mini, and a 2017 round win at Battipaglia in the Italian Karting Championship. These are single-source (Wikipedia) claims, so they need corroboration (e.g. TKART/Vroomkart archives) before inclusion, but the gap itself is real.",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Kimi_Antonelli",
+        "suggestion": "Either add verified 2016-2017 Mini-class entries (2016 Trofeo delle Industrie / Italian Cup podiums; 2017 WSK Super Master 60 Mini third, Battipaglia round win) after cross-checking against karting press archives, or narrow the era's displayed span / add a one-line note explaining the 2016-17 Mini-class development years so the timeline doesn't look accidentally incomplete."
+      },
+      {
+        "description": "The 2025 F1 era omits the season's most famous Antonelli storyline: the Qatar GP incident. Two laps from the end he ran deep after momentarily losing the rear, letting Lando Norris through for P4 — worth two points that proved decisive in the title fight against Max Verstappen. Verstappen's race engineer and Red Bull adviser Helmut Marko publicly suggested he had let Norris past deliberately; Antonelli received severe online abuse (Wikipedia records death threats), and Red Bull issued a formal statement calling the claims 'clearly incorrect' and saying they 'sincerely regret' the abuse. Antonelli then personally apologised to Verstappen in the Abu Dhabi media pen, and Verstappen replied 'Mate, don't [apologise]. It's all good.' This is a defining, fan-beloved chapter of his rookie year and is entirely absent.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/red-bull-sincerely-regret-abuse-faced-by-antonelli-after-clearly-incorrect.s4AXZnTR6WuTnqIqcYZQq",
+        "suggestion": "Add a fact (and a sentence in the 2025 entry notes) covering the Qatar 2025 incident: the late error gifting Norris P4, Red Bull's retracted 'deliberate' accusation and formal apology over the online abuse, and the Antonelli-Verstappen exchange in Abu Dhabi (motorsport.com and ESPN corroborate)."
+      },
+      {
+        "description": "The 2025 entry notes only the highlights and reads one-sided: it omits that his rookie season included four retirements/DNFs and a headline mistake — the lap-1 Austrian GP collision where he locked his rear brakes into Turn 3 and eliminated both himself and Verstappen, earning a three-place grid penalty for Silverstone plus two penalty points with the stewards ruling him 'fully at fault'. Wikipedia additionally lists retirements at Emilia-Romagna (throttle), Spain (oil pressure) and Britain (hit by Hadjar on lap 1). For a career dataset, the Austria clash in particular is a well-known milestone (his first F1 DNF-causing error, against Verstappen of all people, with a public apology).",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/antonelli-handed-three-place-grid-penalty-for-silverstone-after-verstappen.7GIpi2rLTwmOXHW5VfgFWT",
+        "suggestion": "Add the Austria 2025 collision (29 June 2025: rear-brake lock into Turn 3, took out Verstappen, 3-place grid penalty + 2 penalty points, apologised to Verstappen) as a fact or note, and optionally summarise the season's retirements so the 7th-with-150-points result has context."
+      },
+      {
+        "description": "A widely-cited 2026 milestone framing is missing: with his maiden win in China at age 19, Antonelli joined Max Verstappen as one of only two drivers in F1 history to win a Grand Prix as a teenager. The dataset states 'second-youngest Grand Prix winner ever behind Verstappen', which is related but not the same claim — the teenage-winner club is the version fans and F1's own coverage lead with. Formula1.com's 2026 mid-season legends feature states it directly.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/antonelli-vs-russell-hamiltons-charge-verstappens-future-and-more-f1-legends-on-the-2026-season-so-far.2HEpcoGcOUi60XrV51IHyc",
+        "suggestion": "Add to the China 2026 fact (or the 2026 entry notes) that he became only the second teenager ever to win an F1 Grand Prix, after Verstappen."
+      },
+      {
+        "description": "The 2026 entry gives no constructors'-championship context: Mercedes lead the 2026 Constructors' Championship at the summer break with 379 points and eight race wins (Antonelli's six plus Russell's two), 72 clear of Ferrari — relevant to a fan site because Antonelli is simultaneously fighting his own teammate and Hamilton's Ferrari.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/antonelli-vs-russell-hamiltons-charge-verstappens-future-and-more-f1-legends-on-the-2026-season-so-far.2HEpcoGcOUi60XrV51IHyc",
+        "suggestion": "Add a sentence to the 2026 entry notes: Mercedes lead the constructors' standings at the break (379 points, 8 wins, 72 clear of Ferrari), and Antonelli's title rivals are Hamilton (Ferrari) and teammate Russell — verify exact figures against formula1.com standings before publishing."
+      },
+      {
+        "description": "Minor rookie-honours nuance for 2025: Antonelli did NOT win the official FIA Rookie of the Year award (it went to F3 champion Rafael Camara at the FIA prizegiving, the second straight year it bypassed F1), but he was the highest-scoring F1 rookie of 2025 (already in the dataset) and was named joint F1 rookie of the year with Isack Hadjar by some outlets (e.g. Grandprix247). Since the dataset's karting era already cites his 2020 FIA Karting Rookie of the Year, a reader might wrongly assume he collected the 2025 FIA award too.",
+        "sourceUrl": "https://www.gpblog.com/en/news/fia-chooses-ferrari-talent-as-rookie-of-the-year",
+        "suggestion": "Optionally add a clarifying note to the 2025 entry that the official FIA Rookie of the Year 2025 went to Rafael Camara (his old karting teammate/rival, a nice narrative link), while Antonelli was the top-scoring F1 rookie and shared press rookie-of-the-year honours with Hadjar."
+      }
+    ],
+    "overallAssessment": "The dataset is impressively deep and, importantly, NOT stale: F1 is in its 2026 summer break after the Hungarian GP (round 11 of 22), and the next race is the Dutch GP on 23 August 2026, so the 2026 entry (219 points, 6 wins, 6 poles, 9 podiums, leading Hamilton by 50) matches current formula1.com standings as of 2026-08-05. Era boundaries and headline numbers all check out against the sources I opened. The real gaps are additive: (1) a genuinely missing 2022 title — the FIA Motorsport Games F4 Cup gold for Italy at Paul Ricard (Formula Scout/FIA confirmed), plus the associated Casco d'Oro/Volante ACI honours; (2) an empty 2016-2017 window in a karting era labelled 2014-2021; (3) the 2025 era's biggest omission — the Qatar incident with Norris, Red Bull's retracted accusation and apology over the abuse he received, and his exchange with Verstappen — arguably the most fan-discussed Antonelli story of 2025, along with the Austria lap-1 collision with Verstappen and his rookie-season retirements, which the current highlights-only notes gloss over; and (4) small framing additions for 2026 (second teenage GP winner ever after Verstappen; Mercedes' constructors lead). One clarification worth adding: the official 2025 FIA Rookie of the Year went to Rafael Camara, not Antonelli. I could not verify the drums/hobby fan lore or any missing F2/FRECA results, so nothing else is flagged."
+  }
+}

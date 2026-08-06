@@ -17,6 +17,14 @@ pnpm-debug.log*
 .env
 .env.production
 
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# raw API response cache (regenerable; only the derived JSON is committed)
+data/cache/
+
 # macOS-specific files
 .DS_Store
 

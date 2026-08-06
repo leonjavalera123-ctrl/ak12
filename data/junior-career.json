@@ -1,0 +1,514 @@
+{
+  "eras": [
+    {
+      "era": "karting",
+      "label": "Karting",
+      "years": "2014-2021",
+      "entries": [
+        {
+          "series": "Easykart 60 (Trofeo Easykart / International Grand Final)",
+          "year": 2015,
+          "result": "Champion",
+          "team": "Antonelli Motorsport (his father's team)",
+          "notes": "First kart titles: won the Trofeo Easykart and the Easykart International Grand Final in the 60cc class, charging through the field in the Grand Final (grid position disputed: 21st per en.wikipedia.org/wiki/Kimi_Antonelli, 22nd per pitpass.com/drivers/85/andrea-kimi-antonelli). Both titles also listed by minardimanagement.com/en/history/andrea-kimi-antonelli and mercedesamgf1.com."
+        },
+        {
+          "series": "WSK Champions Cup (60 Mini)",
+          "year": 2018,
+          "result": "Winner",
+          "team": "Energy Corse",
+          "notes": "Won the 60 Mini finale at Adria on an Energy/TM kart (en.wikipedia.org/wiki/Andrea_Kimi_Antonelli; minardimanagement.com lists 'WSK Champion Cup 1st' for 2018; corroborated by TKART/Vroomkart event coverage)."
+        },
+        {
+          "series": "South Garda Winter Cup (Mini ROK)",
+          "year": 2018,
+          "result": "Winner",
+          "team": "Energy Corse",
+          "notes": "Won a chaotic Mini final at South Garda Karting in February 2018 as an Energy Corse driver (formularapida.net/antonelli-wins-chaotic-mini-final-in-winter-cup/; en.wikipedia.org/wiki/Andrea_Kimi_Antonelli; minardimanagement.com). Class corrected from '60 Mini' to 'Mini ROK' per Wikipedia's listing."
+        },
+        {
+          "series": "ROK Cup International Final (Mini ROK)",
+          "year": 2018,
+          "result": "Winner",
+          "team": "Energy Corse",
+          "notes": "Confirmed by en.wikipedia.org/wiki/Andrea_Kimi_Antonelli, minardimanagement.com/en/history/andrea-kimi-antonelli ('Rok International Final 1st') and pitpass.com/drivers/85/andrea-kimi-antonelli."
+        },
+        {
+          "series": "Italian Karting Championship (60 Mini)",
+          "year": 2018,
+          "result": "Runner-up",
+          "team": "Energy Corse",
+          "notes": "Beaten to the title by Martinius Stenshorne (Parolin); Antonelli raced an Energy/TM kart (en.wikipedia.org/wiki/Andrea_Kimi_Antonelli; en.wikipedia.org/wiki/Italian_Karting_Championship lists Stenshorne as 2018 Mini champion; acisport.it 2018 season coverage)."
+        },
+        {
+          "series": "South Garda Winter Cup (OK-Junior)",
+          "year": 2019,
+          "result": "Winner",
+          "team": "Rosberg Racing Academy",
+          "notes": "First of three major trophies in a row to open his rookie OKJ season (formulascout.com/the-top-karting-stars-of-2019/57332; pitpass.com/drivers/85/andrea-kimi-antonelli)."
+        },
+        {
+          "series": "WSK Super Master Series (OK-Junior)",
+          "year": 2019,
+          "result": "Champion",
+          "team": "Rosberg Racing Academy",
+          "notes": "Won as an OKJ class rookie, sealing the title despite missing the final in the Sarno decider after a clash with Thomas ten Brinke (formulascout.com/the-top-karting-stars-of-2019/57332; tkart.it 'Andrea Antonelli wins 2019 WSK Super Master in OKJ'; pitpass.com)."
+        },
+        {
+          "series": "WSK Euro Series (OK-Junior)",
+          "year": 2019,
+          "result": "Champion",
+          "team": "Rosberg Racing Academy",
+          "notes": "Formula Scout: one of the 'three major trophies in a row' opening 2019 (formulascout.com/the-top-karting-stars-of-2019/57332; mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli; pitpass.com)."
+        },
+        {
+          "series": "WSK Open Cup (OK-Junior)",
+          "year": 2019,
+          "result": "Champion",
+          "team": "Rosberg Racing Academy",
+          "notes": "Ended the year 'winning the Final and Open Cup' (formulascout.com/the-top-karting-stars-of-2019/57332; minardimanagement.com; pitpass.com)."
+        },
+        {
+          "series": "WSK Final Cup (OK-Junior)",
+          "year": 2019,
+          "result": "Champion",
+          "team": "Rosberg Racing Academy",
+          "notes": "Confirmed by formulascout.com/the-top-karting-stars-of-2019/57332 and pitpass.com/drivers/85/andrea-kimi-antonelli."
+        },
+        {
+          "series": "FIA Karting European Championship (OK-Junior)",
+          "year": 2019,
+          "result": "Runner-up",
+          "team": "Rosberg Racing Academy",
+          "notes": "Beaten to the title by Marcus Amand (formulascout.com/the-top-karting-stars-of-2019/57332; minardimanagement.com lists 'CIK FIA Euro Series 2nd'). Unverified 'won the final round at Le Mans' detail removed."
+        },
+        {
+          "series": "FIA Karting World Championship (OK-Junior)",
+          "year": 2019,
+          "result": "5th",
+          "team": "Rosberg Racing Academy",
+          "notes": "Qualified 5th out of 100 entries, 0.165s off pole, and won three of his heats (formulascout.com/the-top-karting-stars-of-2019/57332; P5 finish also on mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli)."
+        },
+        {
+          "series": "FIA Karting European Championship (OK)",
+          "year": 2020,
+          "result": "Champion",
+          "team": "Kart Republic (entered as KR Motorsport)",
+          "notes": "Won on his senior-class debut aged 14, clinching the title by winning the finale at Wackersdorf on 13 September 2020; overall winner of two rounds, second in the other (theracebox.com/fia-karting-european-championship-ok-final-victory-and-title-for-antonelli/; formulascout.com/the-top-karting-stars-of-2020/73153; ekartingnews.com 2020-09-14). 'Youngest senior European champion in history' superlative removed — stated only by Wikipedia, no independent confirmation found."
+        },
+        {
+          "series": "WSK Euro Series (OK)",
+          "year": 2020,
+          "result": "Champion",
+          "team": "Kart Republic (KR Motorsport)",
+          "notes": "Clinched a week after the World Championship finale (formulascout.com/the-top-karting-stars-of-2020/73153; also listed on mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli)."
+        },
+        {
+          "series": "Italian Karting Championship (OK)",
+          "year": 2020,
+          "result": "Champion",
+          "team": "Kart Republic",
+          "notes": "Listed as 2020 OK champion (Kart Republic) in the Italian Karting Championship champions list (en.wikipedia.org/wiki/Italian_Karting_Championship) and in his Wikipedia biography; note Formula Scout's 2020 year-review does not mention this title."
+        },
+        {
+          "series": "WSK Super Master Series (OK)",
+          "year": 2020,
+          "result": "Runner-up",
+          "team": "KR Motorsport (Kart Republic)",
+          "notes": "Runner-up to Nikita Bedrin (Ward Racing/Tony Kart), 280 points to Bedrin's 311; led the standings until going off after contact in the Adria closing final (kartcom.com/en/news/2020/07/06/the-champions-of-wsk-super-master-series-2020/; en.wikipedia.org/wiki/Andrea_Kimi_Antonelli)."
+        },
+        {
+          "series": "FIA Karting World Championship (OK)",
+          "year": 2020,
+          "result": "35th (DNF in final)",
+          "team": "Kart Republic (KR Motorsport)",
+          "notes": "Broke his left tibia and metatarsus (leg and foot) crashing into Maya Weug's spun kart on lap two of the wet final at Portimao (formulascout.com/mercedes-f1-junior-antonelli-injured-in-world-karting-final-crash/70774; classified 35th per formulascout.com/the-top-karting-stars-of-2020/73153). Named 2020 FIA Karting Rookie of the Year (fiakarting.com/news/2020-fia-karting-best-fia-karting-rookie-year-andrea-kimi-antonelli)."
+        },
+        {
+          "series": "FIA Karting European Championship (OK)",
+          "year": 2021,
+          "result": "Champion",
+          "team": "Kart Republic (KR Motorsport)",
+          "notes": "Successfully defended his title: after a slow start at Genk he 'won the remaining three rounds to canter to the title' (formulascout.com/the-top-karting-stars-of-2021/87915; title retention also confirmed on mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli)."
+        },
+        {
+          "series": "WSK Super Master Series (OK)",
+          "year": 2021,
+          "result": "Runner-up",
+          "team": "KR Motorsport (Kart Republic)",
+          "notes": "Title runner-up over the three-round series behind KR Motorsport teammate Rafael Camara (kartcom.com/en/news/2021/04/19/the-grand-finale-of-wsk-super-master-in-lonato/ explicitly calls them teammates; formulascout.com/the-top-karting-stars-of-2021/87915)."
+        },
+        {
+          "series": "WSK Champions Cup (OK)",
+          "year": 2021,
+          "result": "Runner-up",
+          "team": "KR Motorsport (Kart Republic)",
+          "notes": "Beaten by Rafael Camara at Adria while convalescent from his broken leg (tkart.it 'WSK Champions Cup, Adria: OK Final – Camara makes fun of a convalescent Antonelli'); margin of 0.178s per formulascout.com/the-top-karting-stars-of-2021/87915."
+        },
+        {
+          "series": "Champions of the Future (OK)",
+          "year": 2021,
+          "result": "7th",
+          "team": "KR Motorsport (Kart Republic)",
+          "notes": "Was in title contention but skipped the Campillos finale to focus on F4; Camara took the title there (championskarting.com finale report). Exact 7th-place standing per formulascout.com/the-top-karting-stars-of-2021/87915 only — retained on Formula Scout's authority."
+        },
+        {
+          "series": "FIA Karting World Championship (KZ)",
+          "year": 2021,
+          "result": "15th",
+          "team": "Kart Republic (KR Motorsport)",
+          "notes": "One-off in the KZ gearbox class; took pole for the heats but struggled in the races and finished 15th in the final of his last kart weekend (formulascout.com/the-top-karting-stars-of-2021/87915; en.wikipedia.org/wiki/Kimi_Antonelli)."
+        }
+      ],
+      "facts": [
+        {
+          "fact": "Antonelli won the 2020 FIA Karting European Championship in the senior OK class on his debut season in the category, aged 14 — clinching the title by winning the finale at Wackersdorf on 13 September 2020, less than three weeks after his 14th birthday.",
+          "sourceUrl": "https://theracebox.com/fia-karting-european-championship-ok-final-victory-and-title-for-antonelli/"
+        },
+        {
+          "fact": "He joined the Mercedes Junior Programme in 2019 — per the team's official site — after sweeping junior karting titles (Wikipedia dates the signing to 2018 with the public announcement in April 2019; Mercedes' own page says 2019).",
+          "sourceUrl": "https://www.mercedesamgf1.com/news/kimi-antonelli-everything-you-need-to-know"
+        },
+        {
+          "fact": "His 2019 rookie OK-Junior season with Rosberg Racing Academy was a near-clean sweep of the WSK calendar: South Garda Winter Cup, WSK Super Master Series, WSK Euro Series, WSK Open Cup and WSK Final Cup, plus European Championship runner-up to Marcus Amand and fifth at the World Championship.",
+          "sourceUrl": "https://formulascout.com/the-top-karting-stars-of-2019/57332"
+        },
+        {
+          "fact": "He broke his left tibia and metatarsus crashing into Maya Weug's spun kart on lap two of the wet 2020 World Championship final at Portimao — then came back in 2021 and defended his OK European crown by winning the final three rounds of the season.",
+          "sourceUrl": "https://formulascout.com/mercedes-f1-junior-antonelli-injured-in-world-karting-final-crash/70774"
+        },
+        {
+          "fact": "He started karting at age seven, racing for his dad's team (Antonelli Motorsport), and took his first kart titles in 2015 in the Easykart 60 category — the Trofeo Easykart and the Easykart International Grand Final, won from deep in the pack (21st on the grid per Wikipedia, 22nd per Pitpass).",
+          "sourceUrl": "https://www.mercedesamgf1.com/news/kimi-antonelli-everything-you-need-to-know"
+        }
+      ],
+      "note": "2016-17 were Mini-class development years: Wikipedia records Italian Cup and Trofeo delle Industrie podiums in 2016 and third in the 2017 WSK Super Master Series (60 Mini), but no second source could confirm them, so they are not listed as verified entries."
+    },
+    {
+      "era": "f4-2022",
+      "label": "Formula 4",
+      "years": "2021-2022",
+      "entries": [
+        {
+          "series": "Italian F4 Championship",
+          "year": 2022,
+          "result": "Champion",
+          "team": "Prema Racing",
+          "wins": 13,
+          "poles": 14,
+          "podiums": 15,
+          "points": 362,
+          "notes": "Won the title with a then-record 13 wins (surpassed by Freddie Slater's 15 in 2024), 362 points to runner-up Alex Dunne's 258 — a 104-point margin. Clinched with two races to spare via a lights-to-flag win at the Mugello finale, and also took the rookie classification. Contested 20 of the season's 21 held races (22 scheduled; Monza race 3 cancelled for weather; he missed only Red Bull Ring race 1). Verified: 13 wins/20 starts per racingnews365.com/drivers/kimi-antonelli and formulascout.com/slater-sails-to-record-14th-italian-f4-victory-at-wet-monza/125102; 14 poles counted from the race-by-race tables at en.wikipedia.org/wiki/2022_Italian_F4_Championship and matching the career table at en.wikipedia.org/wiki/Kimi_Antonelli; 15 podiums cross-checked against Mercedes' official combined 2022 figure of 22 wins/21 poles/27 podiums (mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli) minus the independently confirmed ADAC 9/7/12; title/margin per formulascout.com/antonelli-becomes-italian-f4-champion-with-mugello-win/100088."
+        },
+        {
+          "series": "ADAC Formula 4 Championship",
+          "year": 2022,
+          "result": "Champion",
+          "team": "Prema Racing",
+          "wins": 9,
+          "poles": 7,
+          "podiums": 12,
+          "points": 313,
+          "notes": "Won the German series in the same season: 313 points, beating Taylor Barnard (PHM Racing, 266) by 47. Took 9 wins from 15 races contested (of 18; the skipped round was the Lausitzring), including seven of the first eight races despite the series running a reversed-grid race each weekend; sealed the title with one race to spare at the Nurburgring GP-circuit finale, a week before winning the Italian crown. Poles verified as 7 from the season-page wikitext (reversed-grid third races carry no pole; he took 7 of the 8 poles available in rounds 1-4), matching the Wikipedia career table; 12 podiums independently confirmed by racingnews365.com ('nine wins and three seconds from 15 starts'). Sources: en.wikipedia.org/wiki/Kimi_Antonelli, en.wikipedia.org/wiki/2022_ADAC_Formula_4_Championship, formulascout.com/f4-season-review-double-champion-antonelli-in-a-class-of-his-own/101458, racingnews365.com/drivers/kimi-antonelli."
+        },
+        {
+          "series": "Italian F4 Championship",
+          "year": 2021,
+          "result": "10th",
+          "team": "Prema Powerteam",
+          "wins": 0,
+          "poles": 0,
+          "podiums": 3,
+          "points": 54,
+          "notes": "His car-racing debut — so 2022 was NOT his first year in cars, though he was still rookie-classified in 2022. Entered the final three rounds (rounds 5-7: Red Bull Ring debut on 11-12 September 2021, then Mugello and Monza; 9 races) as a points-eligible entry, not a guest. All three podiums came at the Monza finale (2nd, 3rd, 3rd); 54 points, 10th overall. Independently corroborated by racingnews365.com ('nine-race spell... three podiums'). Sources: en.wikipedia.org/wiki/2021_Italian_F4_Championship, en.wikipedia.org/wiki/Kimi_Antonelli, racingnews365.com/drivers/kimi-antonelli."
+        },
+        {
+          "series": "Formula 4 UAE Championship",
+          "year": 2022,
+          "result": "8th",
+          "team": "Prema Racing / Abu Dhabi Racing by Prema",
+          "wins": 2,
+          "poles": null,
+          "podiums": null,
+          "points": 117,
+          "notes": "Early-2022 warm-up campaign split across two entries (8 of the season's 20 races, 2 wins, 117 points, 8th overall). Both wins came in the Yas Marina opener with Prema Racing, where he also won race 3 on the road but was demoted to third by a pit-exit-line penalty; he skipped round 2 despite leading the points, then returned for one round with Abu Dhabi Racing by Prema in place of Rafael Camara. These 2 wins plus 13 Italian and 9 ADAC gave him 24 F4 wins across all series in 2022. Poles/podiums left blank — Wikipedia's career table shows 1 pole and 5 podiums combined across the two entries, but no second source could verify those aggregates. Sources: en.wikipedia.org/wiki/Kimi_Antonelli, en.wikipedia.org/wiki/2022_Formula_4_UAE_Championship, formulascout.com/antonelli-wins-in-three-way-prema-photo-finish-in-opening-f4-uae-race/88831, formulascout.com/antonelli-wont-do-f4-uae-round-two-despite-leading-points/88980."
+        },
+        {
+          "series": "FIA Motorsport Games F4 Cup (Team Italy)",
+          "year": 2022,
+          "result": "Gold medal",
+          "team": "Team Italy",
+          "wins": 2,
+          "poles": 1,
+          "podiums": 2,
+          "points": null,
+          "notes": "Clean sweep at Paul Ricard: fastest in both practice sessions and in qualifying, won the Qualification Race, then took the Main Race by 6.902s — Italy's second consecutive F4 Cup gold after Andrea Rosso in 2019. Confirmed by Formula Scout, Motorsport.com and fia.com."
+        }
+      ],
+      "facts": [
+        {
+          "fact": "In 2022 Antonelli won both the Italian F4 and ADAC F4 championships with Prema in the same season, taking 22 wins from 35 races across the two series.",
+          "sourceUrl": "https://formulascout.com/f4-season-review-double-champion-antonelli-in-a-class-of-his-own/101458"
+        },
+        {
+          "fact": "His 13 victories in the 2022 Italian F4 Championship were a then-record for a single season in the series — a record broken by Freddie Slater in 2024, who ended that season on 15 wins.",
+          "sourceUrl": "https://formulascout.com/slater-sails-to-record-14th-italian-f4-victory-at-wet-monza/125102"
+        },
+        {
+          "fact": "He clinched the Italian F4 title with two races to spare, taking a lights-to-flag win in the opening race of the Mugello finale — one week after sealing the ADAC F4 title at the Nurburgring — and also collected Italian F4 rookie honours.",
+          "sourceUrl": "https://formulascout.com/antonelli-becomes-italian-f4-champion-with-mugello-win/100088"
+        },
+        {
+          "fact": "In ADAC F4 he won seven of the first eight races — an outstanding strike rate given the series runs a reversed-grid race at every event — en route to beating Taylor Barnard by 47 points (313 to 266).",
+          "sourceUrl": "https://formulascout.com/f4-season-review-double-champion-antonelli-in-a-class-of-his-own/101458"
+        },
+        {
+          "fact": "2022 was not his rookie car-racing year: he made his junior single-seater debut in September 2021, contesting the final three rounds of the 2021 Italian F4 Championship for Prema as a points-eligible entry, finishing 10th overall with 54 points and three podiums, all at the Monza finale.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2021_Italian_F4_Championship"
+        },
+        {
+          "fact": "2022 actually brought a third title: gold for Team Italy in the FIA Motorsport Games F4 Cup at Paul Ricard — fastest in every practice and qualifying session and winner of both races, the main one by 6.9 seconds.",
+          "sourceUrl": "https://formulascout.com/antonelli-wins-motorsport-games-f4-cup-gold-medal-for-italy/100401"
+        },
+        {
+          "fact": "He capped the season collecting Italian motorsport's Casco d'Oro (Autosprint's Golden Helmet) and a Volante ACI award at the 21 December 2022 ceremony — held that year in his home city, Bologna.",
+          "sourceUrl": "https://aciteamitalia.it/aci-team-italia-ai-caschi-doro-autosprint-e-volanti-aci-2022/"
+        }
+      ]
+    },
+    {
+      "entries": [
+        {
+          "series": "Formula Regional Middle East Championship",
+          "year": 2023,
+          "result": "Champion",
+          "team": "Mumbai Falcons Racing Limited",
+          "wins": 3,
+          "poles": 3,
+          "podiums": 7,
+          "points": 192,
+          "notes": "15 races, 5 fastest laps. Won the drivers' title in the penultimate race (race 14 of 15) at Yas Marina despite a 10-second penalty, and also won the Rookie Cup. Beat Taylor Barnard (152 pts) by 40 and Rafael Camara (131 pts) by 61; Mumbai Falcons won the teams' title (338 pts). Pole count of 3 follows per-qualifying-session counting used by Formula Scout ('second pole of the season' at the round-4 Dubai return, plus round 1 and Yas Marina); Wikipedia's race-grid tables credit him with pole for 5 races because drivers' second-best times also set extra grids, and Italian Wikipedia lists 2. Sources: https://www.speedsport-magazine.com/motorsport/formula-level3/asian-formula-3/2023.html , https://en.wikipedia.org/wiki/2023_Formula_Regional_Middle_East_Championship , https://formulascout.com/antonelli-on-top-in-qualifyng-as-fregional-middle-east-returns-to-dubai/103608 , https://premaracing.com/en/news/19225-antonelli-graduates-to-fia-formula-2-after-winning-2023-freca-championship"
+        },
+        {
+          "series": "Formula Regional European Championship (FRECA)",
+          "year": 2023,
+          "result": "Champion",
+          "team": "Prema Racing",
+          "wins": 5,
+          "poles": 4,
+          "podiums": 11,
+          "points": 300,
+          "notes": "20 races, 5 fastest laps. Clinched the title with two races to spare at Zandvoort; finished 39 pts clear of Martinius Stenshorne (261) and 61 clear of Tim Tramnitz (239) — all totals confirmed by the official FRECA final standings PDF (Antonelli 300). All five wins came in race 2 of a weekend (Spa, Mugello, Paul Ricard, Monza, Zandvoort); poles at Barcelona R1, Mugello R2, Paul Ricard R2 and Monza R2. First FRECA win was the wet Spa race 2 in which Dilano van 't Hoff was fatally injured; at Monza he was stripped of the race-1 win for push-to-pass overuse but inherited the red-flagged race-2 win. Voted driver of the season in Formula Scout's poll of FREC team principals; Prema won the teams' title 512-510 over R-ace GP. Sources: https://formularegionaleubyalpine.com/wp-content/uploads/2023/04/2023-10-22-FRECA-Hockenheim-R2-DRIVERS.pdf , https://formulascout.com/frec-season-review-antonelli-shines-through-tragedy/112837 , https://en.wikipedia.org/wiki/2023_Formula_Regional_European_Championship"
+        }
+      ],
+      "era": "regional-2023",
+      "facts": [
+        {
+          "fact": "Antonelli won both the Formula Regional Middle East and Formula Regional European championships in 2023 — his first season of Formula Regional machinery — completing a double title year at age 16-17, with 8 wins and 18 podiums across the two series.",
+          "sourceUrl": "https://www.motorsportmagazine.com/articles/single-seaters/f1/who-is-kimi-antonelli-why-17-year-old-is-linked-with-lewis-hamiltons-f1-seat/"
+        },
+        {
+          "fact": "He clinched the FRECA title in style at Zandvoort with a round to spare: starting eighth, he led by lap three and won the mixed-weather race by 12.275 seconds.",
+          "sourceUrl": "https://formulascout.com/antonelli-clinches-frec-title-in-style-with-dominant-victory-at-zandvoort/112230"
+        },
+        {
+          "fact": "He sealed the Middle East title at Yas Marina with one race remaining despite a 10-second penalty (for spinning Sebastian Montoya at the final chicane) that dropped him from 10th on the road to 14th — title rival Taylor Barnard finished ninth, leaving Antonelli an insurmountable 43-point lead (185 to 142).",
+          "sourceUrl": "https://formulascout.com/antonelli-takes-fregional-middle-east-title-despite-penalty/103876"
+        },
+        {
+          "fact": "In the Middle East championship he was also the Rookie Cup winner, taking the rookie honours alongside the outright drivers' title, while Mumbai Falcons Racing Limited took the teams' title.",
+          "sourceUrl": "https://www.emirates247.com/sports/other/andrea-kimi-antonelli-crowned-2023-formula-regional-middle-east-champion-in-uae-2023-02-22-1.702185"
+        }
+      ],
+      "label": "Formula Regional",
+      "years": "2023"
+    },
+    {
+      "era": "f2-2024",
+      "label": "Formula 2",
+      "years": "2024",
+      "entries": [
+        {
+          "series": "FIA Formula 2 Championship",
+          "year": 2024,
+          "team": "Prema Racing",
+          "result": "6th",
+          "points": 113,
+          "wins": 2,
+          "poles": 0,
+          "podiums": 3,
+          "notes": "Rookie season at 17, having skipped F3 entirely (jumped from Formula Regional European Championship, which he won in 2023, straight to F2). Two wins: the rain-soaked Silverstone sprint race (6 July 2024, won by 8.6 seconds after a red-flag stoppage) and the Budapest feature race (21 July 2024, charged from 7th on the grid to win by 12 seconds). Third podium was 3rd in the Baku feature. Zero poles — he missed his maiden pole by 0.017s to Richard Verschoor in Baku qualifying. Finished ahead of Prema teammate Oliver Bearman (12th, 75 points). Champion was Gabriel Bortoleto (Invicta Racing)."
+        }
+      ],
+      "facts": [
+        {
+          "fact": "He skipped Formula 3 entirely: after winning the 2023 Formula Regional European Championship, the 17-year-old Mercedes junior jumped straight to F2 with Prema for 2024 — Antonelli himself said 'From Formula Regional to Formula 2, it will be a huge jump'. Wikipedia confirms he 'bypassed the international FIA Formula 3 Championship, progressing directly to FIA Formula 2'.",
+          "sourceUrl": "https://www.motorsport.com/fia-f2/news/freca-champion-antonelli-to-skip-f3-and-join-premas-f2-team-in-2024/10536715/"
+        },
+        {
+          "fact": "His maiden F2 win came in the torrential-rain Silverstone sprint race (6 July 2024), which was red-flagged on lap 4 before he won by 8.6 seconds from Zane Maloney and Gabriel Bortoleto — aged 17 years, 10 months and 11 days (born 25 August 2006).",
+          "sourceUrl": "https://www.autosport.com/formula2/news/f2-britain-antonelli-controls-soggy-red-flagged-sprint-for-maiden-win/10632180/"
+        },
+        {
+          "fact": "Two weeks later he won the Budapest feature race from 7th on the grid — by 12 seconds, the largest winning margin of the 2024 F2 season — while still 17, making him the youngest multiple race winner in F2 series history, a record confirmed on Mercedes' official driver page.",
+          "sourceUrl": "https://www.mercedesamgf1.com/drivers/driver/andrea-kimi-antonelli"
+        },
+        {
+          "fact": "Formula Scout's season review noted his Silverstone sprint win came with fastest lap, that he out-qualified teammate Oliver Bearman 9-5, and that his average race pace was the fourth best in the entire field despite Prema struggling with the new-for-2024 F2 car.",
+          "sourceUrl": "https://formulascout.com/formula-scout-top-50-drivers-of-2024-10-1/127179"
+        },
+        {
+          "fact": "He never took an F2 pole — he missed his maiden pole position by just 0.017 seconds to Richard Verschoor in Baku qualifying, a weekend where he took his third podium (3rd in the feature race behind Verschoor and Victor Martins).",
+          "sourceUrl": "https://formulascout.com/verschoor-pips-antonelli-to-baku-f2-pole-position-by-0-017s/123724"
+        },
+        {
+          "fact": "Mercedes announced him as Lewis Hamilton's 2025 replacement alongside George Russell on Saturday 31 August 2024 — mid-F2-season, six days after his 18th birthday, and one day after he crashed Russell's W15 at 52g some 10 minutes into his FP1 debut at Monza.",
+          "sourceUrl": "https://www.skysports.com/f1/news/12433/13200754/andrea-kimi-antonelli-mercedes-confirm-italian-teenager-as-lewis-hamiltons-replacement-for-2025-f1-season"
+        }
+      ]
+    },
+    {
+      "entries": [
+        {
+          "series": "Formula 1",
+          "year": 2025,
+          "team": "Mercedes",
+          "result": "7th",
+          "points": 150,
+          "wins": 0,
+          "podiums": 3,
+          "poles": 0,
+          "notes": "Rookie season in car #12, replacing Lewis Hamilton alongside George Russell. Final standing 7th with 150 points (formula1.com; also RacingNews365/FormulaOneHistory), the highest-scoring rookie of 2025. Three podiums, all independently confirmed: Canada (3rd, maiden podium), Sao Paulo (2nd in both the Grand Prix — career-best finish at the time — and the sprint) and Las Vegas (started 17th, crossed the line 4th, dropped to 5th by a start-infringement penalty, then promoted to 3rd by the McLaren disqualifications — formula1.com/Motorsport.com). No Grand Prix pole in 2025 — his Miami sprint-qualifying pole (2 May 2025) is not counted as a GP pole. Also set his first fastest lap and led his first laps at Japan 2025. The season also had its rough edges: four retirements (Emilia-Romagna, Spain, Austria, Britain — counts confirmed against Jolpica race data) including the lap-1 Austria collision that eliminated him and Verstappen. The official FIA Rookie of the Year award went to F3 champion Rafael Camara — his old karting teammate and rival — while Antonelli was the top-scoring F1 rookie of 2025 and was named joint F1 rookie of the year with Isack Hadjar by some outlets."
+        },
+        {
+          "series": "Formula 1",
+          "year": 2026,
+          "team": "Mercedes",
+          "result": "1st (championship leader at summer break)",
+          "points": 219,
+          "wins": 6,
+          "podiums": 9,
+          "poles": 6,
+          "notes": "Leads the 2026 World Drivers' Championship with 219 points after the Hungarian GP (26 July 2026) — 50 clear of Hamilton (169) and 59 clear of teammate Russell (160), per formula1.com and confirmed by RacingNews365/Forbes/GPblog. Six wins: China (15 Mar), Japan (29 Mar), Miami (3 May), Canada (24 May), Monaco (7 Jun, grand chelem) and Belgium (19 Jul). Six poles: China, Japan, Miami, Monaco, Britain and Belgium — the Britain pole did not convert: a left wheel-shield failure forced two extra stops and, with a five-second track-limits penalty under the safety-car finish, he was classified 16th (official formula1.com race report; Wikipedia's 15th is superseded). All nine podiums individually confirmed: the six wins plus 2nd in Australia (Mercedes 1-2 behind Russell at the season opener), 3rd in Austria and 3rd in Hungary; one retirement (Barcelona, engine failure). He also took his first sprint win at Silverstone. Contract/seat: Mercedes announced an unchanged Russell-Antonelli line-up for 2026 (formula1.com/Sky Sports, Oct 2025), and in late June 2026 — after Russell's contract option was exercised — the pairing was confirmed through 2027 (grandprix.com, GPFans, Motorsport.com). Mercedes simultaneously lead the 2026 Constructors' Championship at the break — 379 points and eight wins (Antonelli's six plus Russell's two), 72 clear of Ferrari — meaning his title rivals are Hamilton's Ferrari and his own team-mate (per Formula1.com's mid-season review)."
+        }
+      ],
+      "era": "f1-records",
+      "label": "Formula 1",
+      "years": "2025-",
+      "facts": [
+        {
+          "fact": "His first official F1 outing came in FP1 at the 2024 Italian Grand Prix at Monza (30 August 2024): he briefly set the fastest lap of the session, then spun off at Parabolica and hit the wall about 10 minutes in, ending his Mercedes practice debut early.",
+          "sourceUrl": "https://www.motorsport.com/f1/news/antonelli-crashes-early-on-mercedes-f1-debut-in-italian-gp-fp1/10649170/"
+        },
+        {
+          "fact": "The Monza FP1 impact was measured at around 52g; he walked away unharmed. His second 2024 FP1 outing for Mercedes, at the Mexico City Grand Prix, ended twelfth after picking up floor damage from debris on the main straight, and he added a post-season Abu Dhabi test in December 2024 (62 laps, fifth-fastest, despite illness that handed his morning running to Frederik Vesti).",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli"
+        },
+        {
+          "fact": "F1 race debut: 2025 Australian Grand Prix, 16 March 2025 — charged from 16th on the grid to finish 4th in mixed wet conditions (a five-second unsafe-release penalty initially dropped him to 5th, but it was rescinded after a Mercedes Right of Review), making him the second-youngest driver ever to score F1 points at 18 years, 6 months and 19 days, behind only Max Verstappen.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix"
+        },
+        {
+          "fact": "At the 2025 Japanese Grand Prix (6 April 2025) he became both the youngest driver ever to lead an F1 race (18 years, 224 days) and the youngest ever to set a fastest lap, clocking a Suzuka race-lap record of 1:30.965 on lap 50 on his way to 6th.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix"
+        },
+        {
+          "fact": "Miami 2025 sprint qualifying (2 May 2025): took pole at 18 years, 8 months and 7 days, becoming the youngest polesitter in any F1 qualifying format — beating Oscar Piastri by 0.045s and breaking Sebastian Vettel's 2008 record (21 years, 73 days, set at Monza) by more than two years, in only his sixth GP weekend.",
+          "sourceUrl": "https://www.skysports.com/f1/news/12433/13359930/miami-gp-kimi-antonelli-becomes-youngest-f1-polesitter-to-beat-oscar-piastri-lando-norris-in-sprint-qualifying"
+        },
+        {
+          "fact": "First podium: 3rd at the 2025 Canadian Grand Prix (15 June 2025), aged 18 years and 294 days — the third-youngest podium finisher in F1 history behind Verstappen and Stroll, and the first Italian on an F1 podium since Jarno Trulli at the 2009 Japanese Grand Prix, while teammate Russell won the race.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2025_Canadian_Grand_Prix"
+        },
+        {
+          "fact": "Maiden win from maiden Grand Prix pole at the 2026 Chinese Grand Prix (15 March 2026): at 19 he became the youngest Grand Prix polesitter in F1 history (breaking Vettel's Monza 2008 mark), the second-youngest Grand Prix winner ever behind Verstappen, and the first Italian to win an F1 race since Fisichella at Malaysia 2006 — a 20-year wait.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix"
+        },
+        {
+          "fact": "By winning the 2026 Japanese Grand Prix (29 March 2026) from his second straight pole — despite dropping to sixth at the start — he became the youngest World Drivers' Championship leader in F1 history at 19 years and 216 days (breaking Lewis Hamilton's 2007 rookie mark), and Italy's first championship leader since Giancarlo Fisichella after the 2005 Australian Grand Prix.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix"
+        },
+        {
+          "fact": "At Monaco 2026 (7 June 2026) he converted pole into victory — his fifth consecutive win — to become the youngest winner of the Monaco Grand Prix and the youngest driver ever to achieve a grand chelem (pole, win, every lap led, fastest lap).",
+          "sourceUrl": "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship"
+        },
+        {
+          "fact": "Won the 2026 Belgian Grand Prix at Spa (19 July 2026) from pole, passing Leclerc on lap 34 for his sixth win of the season and of his career, extending his title lead to 45 points over Hamilton while teammate and title rival Russell retired after a first-lap collision with Hamilton.",
+          "sourceUrl": "https://www.aljazeera.com/sports/2026/7/19/kimi-antonelli-wins-belgian-grand-prix-to-extend-f1-championship-lead"
+        },
+        {
+          "fact": "With his China 2026 win he joined Max Verstappen as one of only two drivers in Formula 1 history to win a Grand Prix as a teenager.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/antonelli-vs-russell-hamiltons-charge-verstappens-future-and-more-f1-legends-on-the-2026-season-so-far.2HEpcoGcOUi60XrV51IHyc"
+        },
+        {
+          "fact": "Qatar 2025, two laps from home: a moment of oversteer let Lando Norris through for fourth — two points that proved decisive in the title fight — and a Red Bull adviser's suggestion that the move was deliberate triggered a wave of online abuse. Red Bull formally retracted the claim as 'clearly incorrect' and said it 'sincerely regretted' the abuse; when Antonelli apologised to Verstappen in Abu Dhabi, the champion replied: 'Mate, don't [apologise]. It's all good.'",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/red-bull-sincerely-regret-abuse-faced-by-antonelli-after-clearly-incorrect.s4AXZnTR6WuTnqIqcYZQq"
+        },
+        {
+          "fact": "His hardest rookie lesson: locking the rear brakes into Turn 3 on lap 1 in Austria 2025, taking out himself and Verstappen — the stewards ruled him fully at fault (three-place grid penalty plus two penalty points) and he apologised publicly. One year later he returned to the Red Bull Ring and finished third.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/antonelli-handed-three-place-grid-penalty-for-silverstone-after-verstappen.7GIpi2rLTwmOXHW5VfgFWT"
+        }
+      ]
+    },
+    {
+      "entries": [
+        {
+          "series": "Biography",
+          "year": 2006,
+          "result": "-",
+          "team": null,
+          "points": null,
+          "wins": null,
+          "podiums": null,
+          "poles": null,
+          "notes": "Born 25 August 2006 in Bologna, Emilia-Romagna, Italy; born and raised in Bologna. Mercedes F1 driver, car #12, F1 race debut 2025."
+        }
+      ],
+      "era": "bio",
+      "label": "The Kid from Bologna",
+      "years": "2006-",
+      "facts": [
+        {
+          "fact": "Born 25 August 2006 in Bologna, Emilia-Romagna, and raised in Bologna. His mother, Veronica Pomaro, has worked in motorsport since 1997, and he has a younger sister named Maggie.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli"
+        },
+        {
+          "fact": "His father, Marco Antonelli, is a sportscar racing driver and owner of the San Marino-based AKM Motorsport racing team.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli"
+        },
+        {
+          "fact": "Despite the beloved fan legend, he was NOT named after Kimi Raikkonen. His parents wanted a foreign-sounding name to go with 'Andrea', and family friend and ex-racer Enrico Bertaggia suggested 'Kimi'. Antonelli: 'A really good friend of ours, his name is Enrico Bertaggia, he has a background of racing. He decided to name me Kimi.' (Wikipedia corroborates: he has stated he was not named after Raikkonen.)",
+          "sourceUrl": "https://visionf1.com/is-kimi-antonelli-named-after-kimi-raikkonen/"
+        },
+        {
+          "fact": "Car number 12 is a tribute to Ayrton Senna — 'It is because of Ayrton', the number Senna ran in his Lotus years (1985-87). Antonelli also kept it because he had used 12 since F4 ('it worked pretty well with that number') and he was 12 years old when he joined the Mercedes junior programme.",
+          "sourceUrl": "https://www.mercedesamgf1.com/news/the-kimi-interview-part-one-sneaking-into-the-paddock-senna-and-the-no-12"
+        },
+        {
+          "fact": "Aged seven, with no paddock pass at Hockenheim in 2014: 'My Dad decided to hide me inside a stack of tyres and wheel me through on a trolley. We put an umbrella on top to make me harder to see!'",
+          "sourceUrl": "https://www.mercedesamgf1.com/news/the-kimi-interview-part-one-sneaking-into-the-paddock-senna-and-the-no-12"
+        },
+        {
+          "fact": "Mercedes recruited him to its junior programme in 2018 as a young karter (F1.com); Toto Wolff: 'Kimi's been in our junior programme since he was 11.' (Wikipedia dates his formal Junior Team joining to April 2019, aged 12 — sources differ slightly on the exact date.) Wolff on signing him to replace Hamilton: 'Kimi will be the real deal in a while, maybe not yet', comparing his karting pedigree to Verstappen, Hamilton, Russell and Norris: 'he was one of them'.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/exclusive-kimi-will-be-the-real-deal-wolff-on-antonellis-signing-russells.1DB976Q6R8zZEwhAR66DD9"
+        },
+        {
+          "fact": "He passed his Italian road driving test in late January 2025, roughly six weeks BEFORE his F1 race debut in Australia — but only after he had already logged thousands of F1 testing miles and made his grand prix weekend debut in FP1 at Monza 2024. He posted 'Mission completed' at the wheel of a road car. (18 is the minimum driving age in Italy; he turned 18 in August 2024.)",
+          "sourceUrl": "https://sports.yahoo.com/mercedes-rookie-kimi-antonelli-passes-124153988.html"
+        },
+        {
+          "fact": "He stayed in school throughout his rookie F1 season, studying international relations and marketing at ITCS Gaetano Salvemini in Casalecchio di Reno, near Bologna; he also learned English at race weekends and German after joining the Mercedes Junior Team.",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli"
+        },
+        {
+          "fact": "He passed his final high-school graduation exams in June 2025, mid-F1-season — returning home right after his first F1 podium (3rd, 2025 Canadian GP) to sit written and oral exams. 'I was fairly stressed, because I didn't have much time to study. But I did my best.'",
+          "sourceUrl": "https://www.espn.com/f1/story/_/id/45573202/antonelli-passes-final-exams-graduate"
+        },
+        {
+          "fact": "His favourite circuits include Imola and Mugello, both close to his home near Bologna — about 30 and 50 minutes away respectively.",
+          "sourceUrl": "https://www.mercedesamgf1.com/news/the-kimi-interview-part-one-sneaking-into-the-paddock-senna-and-the-no-12"
+        }
+      ]
+    }
+  ]
+}

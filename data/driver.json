@@ -1,0 +1,24 @@
+{
+  "driver": {
+    "name": "Andrea Kimi Antonelli",
+    "code": "ANT",
+    "number": 12,
+    "nationality": "Italian",
+    "dateOfBirth": "2006-08-25",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli"
+  },
+  "career": {
+    "raceStarts": 35,
+    "wins": 6,
+    "podiums": 12,
+    "poles": 6,
+    "fastestLaps": 9,
+    "points": 369,
+    "championshipSeasons": [],
+    "championships": 0,
+    "seasons": [
+      2025,
+      2026
+    ]
+  }
+}
