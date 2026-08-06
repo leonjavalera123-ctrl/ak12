@@ -1,0 +1,53 @@
+---
+// Original AK12 wordmark — our own branding, deliberately NOT the F1,
+// Mercedes, or PETRONAS logos (the three-pointed star is trademarked).
+// Silver AK, teal 12, and a teal speed-slash under the baseline.
+interface Props {
+  size?: 'hero' | 'small';
+}
+const { size = 'small' } = Astro.props;
+---
+
+<span class:list={['wordmark', size]} translate="no">
+  <span class="ak">AK</span><span class="twelve">12</span>
+  <span class="slash" aria-hidden="true"></span>
+</span>
+
+<style>
+  .wordmark {
+    position: relative;
+    display: inline-block;
+    font-family: var(--font-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.9;
+    transform: skewX(-6deg); /* the lean Titillium's missing italic would give */
+    user-select: none;
+  }
+
+  .small {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    font-size: clamp(5.5rem, 20vw, 14rem);
+  }
+
+  .ak {
+    color: var(--c-silver);
+  }
+
+  .twelve {
+    color: var(--c-teal-bright);
+  }
+
+  .slash {
+    position: absolute;
+    left: -2%;
+    bottom: 2%;
+    width: 104%;
+    height: 0.045em;
+    background: linear-gradient(90deg, var(--c-teal), var(--c-teal-bright));
+    transform: skewX(-30deg);
+  }
+</style>

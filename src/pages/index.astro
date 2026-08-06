@@ -1,18 +1,92 @@
 ---
+// The whole site is one page: Hero → the Road (career timeline chapters,
+// vertical in Phase 2, horizontal scroll in Phase 3) → F1 seasons race by
+// race → Footer. All content is static JSON committed to the repo.
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import EraPanel from '../components/EraPanel.astro';
+import SeasonSection from '../components/SeasonSection.astro';
+import Footer from '../components/Footer.astro';
+import juniorCareer from '../../data/junior-career.json';
 
+const seasons = (
+  Object.values(import.meta.glob('../../data/seasons/*.json', { eager: true })) as any[]
+).sort((a, b) => a.season - b.season);
+
+// The lede's climax is derived from live standings, like the Hero status —
+// static copy about a championship position would go stale within a race.
+const current = seasons[seasons.length - 1];
+const isChampion = seasons.some((s) => s.summary.isChampion);
+const leading =
+  current.summary.championshipPosition === 1 && !current.summary.seasonComplete;
+const climax = isChampion
+  ? 'a Formula 1 World Championship'
+  : leading
+    ? 'the top of the Formula 1 World Championship'
+    : 'the front of the Formula 1 grid';
+
+// Chronological story order: origin first, then up the ladder to F1.
+const ERA_ORDER = ['bio', 'karting', 'f4-2022', 'regional-2023', 'f2-2024', 'f1-records'];
+const eras = ERA_ORDER.map((key) => juniorCareer.eras.find((e) => e.era === key)).filter(
+  (e): e is NonNullable<typeof e> => Boolean(e)
+);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		{/* BASE_URL, never "/": this site deploys under /ak12/ on GitHub Pages */}
-		<link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>AK12 — Kimi Antonelli</title>
-	</head>
-	<body>
-		<h1>AK12 — coming soon</h1>
-		<p>Placeholder page — real layout arrives in Phase 2.</p>
-	</body>
-</html>
+<Base>
+  <Hero />
+
+  {/* tabindex=-1 makes the skip-link focus move robust across browsers */}
+  <main id="story" tabindex="-1">
+  <section class="section" aria-labelledby="story-title">
+    <div class="container">
+      <p class="kicker">2006 → today</p>
+      <h2 id="story-title">The Road</h2>
+      <p class="lede">
+        Six chapters from a Bologna kid hidden in a tyre stack to {climax}.
+        Every number verified.
+      </p>
+
+      <div class="chapters">
+        {eras.map((era, i) => (
+          <EraPanel era={era} index={i} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Formula 1 seasons, race by race" id="seasons">
+    <div class="container seasons-head">
+      <p class="kicker">Formula 1</p>
+      <h2>Race by Race</h2>
+    </div>
+    {seasons.map((season) => (
+      <SeasonSection season={season} />
+    ))}
+  </section>
+  </main>
+
+  <Footer />
+</Base>
+
+<style>
+  .lede {
+    max-width: 42rem;
+    margin-block: 1rem 2.5rem;
+    color: var(--c-text-dim);
+    font-size: 1.05rem;
+  }
+
+  .chapters {
+    display: grid;
+    gap: 1.4rem;
+  }
+
+  h2 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    margin-top: 0.4rem;
+  }
+
+  .seasons-head {
+    padding-bottom: 2.5rem;
+  }
+</style>

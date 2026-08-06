@@ -1,0 +1,207 @@
+---
+// Full-viewport intro: wordmark, status line, career stat counters, scroll
+// cue. Counters render real values in static HTML (works with JS off);
+// Phase 3 adds the count-up animation on top via data-count attributes.
+// The championship status line is DERIVED from season data every build, so
+// the weekly data refresh keeps it honest without anyone editing copy.
+import Wordmark from './Wordmark.astro';
+import driver from '../../data/driver.json';
+
+const seasons = Object.values(
+  import.meta.glob('../../data/seasons/*.json', { eager: true })
+) as any[];
+const current = seasons.sort((a, b) => b.season - a.season)[0];
+const lastCompleted = [...current.races].reverse().find((r: any) => !r.upcoming);
+const standing = lastCompleted?.standingAfter ?? null;
+
+// "Leading the 2026 World Championship" / "2026 World Champion" / "P7 in 2026"
+const status = !standing
+  ? null
+  : current.summary.isChampion
+    ? `${current.season} Formula 1 World Champion`
+    : standing.position === 1 && !current.summary.seasonComplete
+      ? `Leading the ${current.season} World Championship`
+      : `P${standing.position} in the ${current.season} World Championship`;
+
+const stats = [
+  { label: 'Grand Prix Wins', value: driver.career.wins },
+  { label: 'Podiums', value: driver.career.podiums },
+  { label: 'Pole Positions', value: driver.career.poles },
+  { label: 'Career Points', value: driver.career.points },
+];
+---
+
+<header class="hero" id="top">
+  <!-- Original SVG track-ribbon art: horizontal teal lines racing right —
+       a quiet hint that this story scrolls sideways. Pure decoration. -->
+  <svg class="ribbon" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    {/* Inline SVG inherits CSS custom properties; style= (not the
+        presentation attribute) is the reliable place for var() in stops */}
+    <defs>
+      <linearGradient id="fade-teal" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" style="stop-color: var(--c-teal)" stop-opacity="0" />
+        <stop offset="1" style="stop-color: var(--c-teal-bright)" stop-opacity="0.85" />
+      </linearGradient>
+      <linearGradient id="fade-silver" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" style="stop-color: var(--c-silver)" stop-opacity="0" />
+        <stop offset="1" style="stop-color: var(--c-silver)" stop-opacity="0.5" />
+      </linearGradient>
+      <linearGradient id="fade-deep" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" style="stop-color: var(--c-teal-deep)" stop-opacity="0" />
+        <stop offset="1" style="stop-color: var(--c-teal)" stop-opacity="0.55" />
+      </linearGradient>
+      <radialGradient id="glow" cx="0.5" cy="0.42" r="0.65">
+        <stop offset="0" style="stop-color: var(--c-hero-glow)" />
+        <stop offset="1" style="stop-color: var(--c-bg)" />
+      </radialGradient>
+    </defs>
+    <rect width="1440" height="900" fill="url(#glow)" />
+    <g transform="skewY(-3)">
+      <rect x="-120" y="170" width="640" height="4" fill="url(#fade-teal)" />
+      <rect x="180" y="210" width="920" height="2" fill="url(#fade-silver)" />
+      <rect x="-40" y="320" width="500" height="3" fill="url(#fade-deep)" />
+      <rect x="620" y="345" width="900" height="5" fill="url(#fade-teal)" />
+      <rect x="280" y="500" width="760" height="2" fill="url(#fade-silver)" />
+      <rect x="800" y="580" width="720" height="4" fill="url(#fade-deep)" />
+      <rect x="-90" y="660" width="580" height="2" fill="url(#fade-silver)" />
+      <rect x="400" y="710" width="1120" height="5" fill="url(#fade-teal)" />
+      <rect x="40" y="830" width="820" height="3" fill="url(#fade-deep)" />
+    </g>
+  </svg>
+
+  <div class="hero-inner container">
+    <p class="kicker">Bologna → Formula 1 · An unofficial fan tribute</p>
+    <h1>
+      {/* Visual wordmark is decorative here; the sr-only text is the name */}
+      <span aria-hidden="true"><Wordmark size="hero" /></span>
+      <span class="sr-only">AK12 —</span>
+      <span class="subtitle">The Kimi Antonelli Story</span>
+    </h1>
+
+    {status && <p class="status">{status}</p>}
+
+    <ul class="stats" role="list">
+      {stats.map((stat) => (
+        <li class="stat">
+          <span class="value" data-count={stat.value}>{stat.value}</span>
+          <span class="label">{stat.label}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <a class="scroll-cue" href="#story" aria-label="Scroll to the story">
+    <span aria-hidden="true">▾</span>
+  </a>
+</header>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .ribbon {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-inner {
+    position: relative;
+    padding-block: 5rem;
+  }
+
+  h1 {
+    margin-block: 1rem 1.6rem;
+  }
+
+  .subtitle {
+    display: block;
+    margin-top: 1.2rem;
+    font-size: clamp(1.05rem, 3vw, 1.8rem);
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.3em;
+    color: var(--c-text-dim);
+  }
+
+  .status {
+    display: inline-block;
+    margin-bottom: 2.2rem;
+    padding: 0.4rem 1.2rem;
+    border: 1px solid color-mix(in srgb, var(--c-teal-bright) 45%, transparent);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--c-teal-deep) 30%, transparent);
+    color: var(--c-teal-bright);
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .stat {
+    min-width: 10.5rem;
+    padding: 1.1rem 1.4rem;
+    background: color-mix(in srgb, var(--c-surface) 72%, transparent);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius);
+    backdrop-filter: blur(4px);
+  }
+
+  .stat .value {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 2.6rem;
+    line-height: 1;
+    color: var(--c-teal-bright);
+  }
+
+  .stat .label {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--c-text-dim);
+  }
+
+  .scroll-cue {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    translate: -50% 0;
+    font-size: 1.6rem;
+    color: var(--c-text-dim);
+    text-decoration: none;
+    animation: bob 1.8s ease-in-out infinite;
+  }
+
+  @keyframes bob {
+    50% {
+      transform: translateY(8px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-cue {
+      animation: none;
+    }
+  }
+</style>

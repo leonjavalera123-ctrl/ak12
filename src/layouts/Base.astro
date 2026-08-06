@@ -1,0 +1,65 @@
+---
+// Base HTML shell: fonts, global CSS, SEO/OG meta. Every page uses this.
+// Titillium ships no 900-italic cut; headings stay upright and the "speed
+// lean" comes from skew transforms (wordmark, banners), not synthetic italics.
+import '@fontsource/titillium-web/400.css';
+import '@fontsource/titillium-web/700.css';
+import '@fontsource/titillium-web/900.css';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'AK12 — The Kimi Antonelli Story',
+  description =
+    'A fan-made, scroll-driven ride through Kimi Antonelli’s racing life — from Bologna karting prodigy to Formula 1 with Mercedes: every era, every race, every record.',
+} = Astro.props;
+
+// Astro.site + base give the canonical URL once deployed to GitHub Pages.
+const canonical = new URL(Astro.url.pathname, Astro.site);
+// 1200x630 share card (original art, arrives in Phase 6). The image meta
+// tags are emitted only once the file exists — a build-time fs check, so
+// Phases 2-5 never ship OG tags pointing at a 404.
+import fs from 'node:fs';
+const hasOgImage = fs.existsSync(new URL('../../public/og.png', import.meta.url));
+const ogImage = new URL(`${import.meta.env.BASE_URL}/og.png`, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0b0e0d" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
+
+    <!-- Open Graph / Twitter cards for rich previews in F1 communities -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {hasOgImage && (
+      <>
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </>
+    )}
+    <meta name="twitter:card" content={hasOgImage ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    {hasOgImage && <meta name="twitter:image" content={ogImage} />}
+
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <a class="skip-link" href="#story">Skip to content</a>
+    <slot />
+  </body>
+</html>

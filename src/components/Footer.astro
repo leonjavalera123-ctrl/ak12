@@ -1,0 +1,45 @@
+---
+// Site footer: legal disclaimer (a hard project constraint), data credits,
+// fan credit with a tricolore nod, and a build-time "last updated" stamp.
+const built = new Date().toLocaleDateString('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC',
+});
+---
+
+<footer class="footer carbon">
+  <div class="container">
+    <p class="disclaimer">
+      AK12 is an unofficial fan site. It is not affiliated with, endorsed by,
+      or connected to Kimi Antonelli, the Mercedes-AMG PETRONAS Formula One
+      Team, Mercedes-Benz Group AG, PETRONAS, Formula 1, or the FIA. F1® and
+      related marks are trademarks of Formula One Licensing BV. Career facts
+      are verified against publicly available sources, linked where shown.
+    </p>
+    <p class="credit">
+      Built by a fan, for fans
+      <span aria-hidden="true">💚🤍❤️</span> · Race data:
+      <a href="https://api.jolpi.ca/" rel="external noopener">Jolpica F1 API</a>
+      · Last updated {built}
+    </p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: 1px solid var(--c-line);
+    padding-block: 3rem;
+    font-size: 0.82rem;
+    color: var(--c-text-dim);
+  }
+
+  .disclaimer {
+    max-width: 60rem;
+  }
+
+  .credit {
+    margin-top: 1.2rem;
+  }
+</style>

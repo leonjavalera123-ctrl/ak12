@@ -1,0 +1,220 @@
+---
+// One chapter of the career timeline: era heading, championship entries,
+// signature facts. Phase 2 stacks these vertically; Phase 3 lays them out
+// as panels in the horizontal scroll timeline — same markup, new axis.
+// Every fact links its verification source (a hard Phase 1 guarantee).
+import { statLine } from '../lib/format';
+
+interface Entry {
+  series: string;
+  year: number;
+  team?: string | null;
+  result: string;
+  wins?: number | null;
+  poles?: number | null;
+  podiums?: number | null;
+  points?: number | null;
+  notes?: string | null;
+}
+
+interface Props {
+  era: {
+    era: string;
+    label: string;
+    years: string;
+    entries: Entry[];
+    facts: { fact: string; sourceUrl: string }[];
+    note?: string;
+  };
+  factLimit?: number;
+  entryLimit?: number;
+  index: number;
+}
+
+const { era, factLimit = 3, entryLimit = 8, index } = Astro.props;
+
+// Long eras (karting: 22 verified entries) show a bounded set of title
+// results, with a count of the rest; short eras show everything. The bound
+// keeps every panel near viewport height for Phase 3's horizontal pin.
+const isTitle = (r: string) => /champion|winner|gold/i.test(r);
+const compact = era.entries.length > entryLimit;
+const entries = compact
+  ? era.entries.filter((e) => isTitle(e.result)).slice(0, entryLimit)
+  : era.entries;
+const hiddenCount = era.entries.length - entries.length;
+
+const facts = era.facts.slice(0, factLimit);
+
+const resultClass = (r: string) =>
+  /champion|winner|gold/i.test(r) ? 'title' : /runner-up|2nd/i.test(r) ? 'silver' : '';
+
+const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
+---
+
+<article class="era" id={`era-${era.era}`} aria-labelledby={`era-${era.era}-title`}>
+  <header class="era-head">
+    <p class="kicker">
+      <span class="chapter" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+      {era.years}
+    </p>
+    <h3 id={`era-${era.era}-title`}>{era.label}</h3>
+  </header>
+
+  {entries.length > 0 && era.entries[0].series !== 'Biography' && (
+    <ul class:list={['entries', { compact }]} role="list">
+      {entries.map((entry) => (
+        <li class:list={['entry', resultClass(entry.result)]}>
+          <span class="year">{entry.year}</span>
+          <span class="what">
+            <span class="series">{entry.series}</span>
+            {entry.team && <span class="team">{entry.team}</span>}
+            {statLine(entry) && <span class="numbers">{statLine(entry)}</span>}
+          </span>
+          <span class="result">{entry.result}</span>
+        </li>
+      ))}
+    </ul>
+  )}
+  {hiddenCount > 0 && (
+    <p class="more">… plus {hiddenCount} more verified results in this era</p>
+  )}
+
+  <ul class="facts" role="list">
+    {facts.map((f) => (
+      <li class="fact">
+        <p>{f.fact}</p>
+        {/* sr-only snippet keeps repeated "Source: <host>" links distinct */}
+        <a class="source" href={f.sourceUrl} rel="external noopener">
+          Source: {host(f.sourceUrl)}
+          <span class="sr-only"> — “{f.fact.split(' ').slice(0, 8).join(' ')}…”</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  {era.note && <p class="note">{era.note}</p>}
+</article>
+
+<style>
+  .era {
+    padding: 1.8rem;
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-top: 4px solid var(--c-teal);
+    border-radius: var(--radius);
+  }
+
+  .era-head h3 {
+    margin-top: 0.3rem;
+    font-size: clamp(1.7rem, 4.5vw, 2.6rem);
+    color: var(--c-text);
+  }
+
+  .chapter {
+    color: var(--c-teal-bright);
+    font-weight: 900;
+  }
+
+  .entries {
+    list-style: none;
+    padding: 0;
+    margin-block: 1.4rem 0;
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  /* Dense eras flow into columns where there's room — halves panel height */
+  .entries.compact {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 3.2rem 1fr auto;
+    gap: 0.8rem;
+    align-items: baseline;
+    padding: 0.55rem 0.8rem;
+    background: var(--c-bg);
+    border: 1px solid var(--c-line);
+    border-radius: 6px;
+    font-size: 0.88rem;
+  }
+
+  .entry .year {
+    font-weight: 700;
+    color: var(--c-text-dim);
+  }
+
+  .entry .what {
+    display: grid;
+    gap: 0.1rem;
+  }
+
+  .entry .series {
+    font-weight: 700;
+  }
+
+  .entry .team,
+  .entry .numbers {
+    font-size: 0.78rem;
+    color: var(--c-text-dim);
+  }
+
+  .entry .result {
+    font-family: var(--font-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+
+  .entry.title .result { color: var(--c-teal-bright); }
+  .entry.silver .result { color: var(--c-silver); }
+
+  .entry.title { border-left: 3px solid var(--c-teal); }
+
+  .more {
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+    color: var(--c-text-dim);
+    font-style: italic;
+  }
+
+  .facts {
+    list-style: none;
+    padding: 0;
+    margin-block: 1.4rem 0;
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  .fact {
+    padding: 0.9rem 1.1rem;
+    background: color-mix(in srgb, var(--c-teal-deep) 14%, var(--c-bg));
+    border-left: 3px solid var(--c-teal);
+    border-radius: 0 6px 6px 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .fact .source {
+    display: inline-block;
+    margin-top: 0.4rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
+    color: var(--c-text-dim);
+  }
+
+  .fact .source:hover,
+  .fact .source:focus-visible {
+    color: var(--c-teal-bright);
+  }
+
+  .note {
+    margin-top: 1.2rem;
+    padding-top: 0.9rem;
+    border-top: 1px dashed var(--c-line);
+    font-size: 0.78rem;
+    color: var(--c-text-dim);
+  }
+</style>

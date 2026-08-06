@@ -1,0 +1,218 @@
+---
+// One race in a season grid. Static in Phase 2 — Phase 4 turns cards with a
+// youtubeVideoId into click-to-load highlight facades.
+import { countryCode, shortDate, resultLabel } from '../lib/format';
+
+interface Props {
+  race: {
+    round: number;
+    raceName: string;
+    circuit: string;
+    country: string;
+    date: string;
+    grid: number | null;
+    finish: number | null;
+    positionText: string | null;
+    status: string | null;
+    points: number | null;
+    win: boolean;
+    podium: boolean;
+    pole: boolean;
+    fastestLap: boolean;
+    upcoming: boolean;
+    youtubeVideoId?: string | null;
+  };
+}
+
+const { race } = Astro.props;
+
+// A retirement isn't always finish === null: a driver who covers enough
+// distance is CLASSIFIED despite retiring (2026 Barcelona: P16, "Retired"),
+// so the status field decides the outcome color, not the finish alone.
+const classified =
+  race.status === 'Finished' || /^\+\d+ Lap/.test(race.status ?? '');
+const dnf = !race.upcoming && (race.finish === null || !classified);
+const outcome = race.win ? 'win' : race.podium ? 'podium' : dnf ? 'dnf' : race.upcoming ? 'upcoming' : 'finish';
+---
+
+<article class:list={['card', outcome]}>
+  <div class="top">
+    <span class="round">R{race.round}</span>
+    <span class="country" title={race.country}>
+      <span aria-hidden="true">{countryCode(race.country)}</span>
+      <span class="sr-only">{race.country}</span>
+    </span>
+    <span class:list={['result', outcome]}>{resultLabel(race)}</span>
+  </div>
+
+  <h4 class="name">{race.raceName.replace(/ Grand Prix$/, ' GP')}</h4>
+  <p class="meta">{race.circuit}</p>
+  <p class="meta">{shortDate(race.date)}</p>
+
+  {!race.upcoming && (
+    <div class="bottom">
+      <span class="grid-finish">
+        {race.grid === 0 ? 'Pits' : `P${race.grid}`} → {race.finish !== null ? `P${race.finish}` : race.positionText}
+        {dnf && race.finish !== null && ` · ${race.status}`}
+      </span>
+      <span class="badges">
+        {race.pole && (
+          <span class="badge pole" title="Pole position">P<span class="sr-only">ole position</span></span>
+        )}
+        {race.fastestLap && (
+          <span class="badge fl" title="Fastest lap">
+            <span aria-hidden="true">FL</span><span class="sr-only">Fastest lap</span>
+          </span>
+        )}
+        {race.win && <span class="badge win-badge">WIN</span>}
+      </span>
+    </div>
+  )}
+  {race.youtubeVideoId && (
+    <a
+      class="highlights"
+      href={`https://www.youtube.com/watch?v=${race.youtubeVideoId}`}
+      rel="external noopener"
+      data-dialog-video={race.youtubeVideoId}
+      data-dialog-title={`${race.date.slice(0, 4)} ${race.raceName} — Official race highlights`}
+    >
+      <span aria-hidden="true">▶</span> Highlights
+      <span class="sr-only">for the {race.date.slice(0, 4)} {race.raceName}</span>
+    </a>
+  )}
+  {race.upcoming && <div class="bottom"><span class="grid-finish">Coming soon</span></div>}
+</article>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    height: 100%;
+    padding: 0.9rem 1rem;
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-left: 4px solid var(--c-line);
+    border-radius: var(--radius);
+    /* The hover lift uses the standalone `translate` property, NOT
+       transform: Phase 3's GSAP reveals write inline transforms, and a
+       CSS transition on transform would re-ease every per-frame write. */
+    transition: translate 0.15s ease, background 0.15s ease;
+  }
+
+  .card:hover,
+  .card:focus-visible {
+    translate: 0 -3px;
+    background: var(--c-surface-2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card,
+    .card:hover {
+      transition: none;
+      translate: none;
+    }
+  }
+
+  .card.win { border-left-color: var(--c-teal-bright); }
+  .card.podium { border-left-color: var(--c-silver); }
+  .card.dnf { border-left-color: var(--c-red-deep); }
+  .card.upcoming {
+    /* Muted via decoration only — an opacity fade on the whole card drags
+       the dim text to exactly 4.5:1 contrast, with zero headroom. */
+    border-style: dashed;
+    border-color: color-mix(in srgb, var(--c-line) 60%, transparent);
+    background: color-mix(in srgb, var(--c-surface) 55%, var(--c-bg));
+  }
+
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  .round { color: var(--c-text-dim); }
+
+  .country {
+    padding: 0.05rem 0.4rem;
+    background: var(--c-bg-deep);
+    border: 1px solid var(--c-line);
+    border-radius: 4px;
+    color: var(--c-text-dim);
+  }
+
+  .result {
+    margin-left: auto;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: 1.05rem;
+    letter-spacing: 0.03em;
+  }
+
+  .result.win { color: var(--c-teal-bright); }
+  .result.podium { color: var(--c-silver); }
+  .result.dnf { color: var(--c-red-text); }
+  .result.finish { color: var(--c-text); }
+  .result.upcoming { color: var(--c-text-dim); }
+
+  .name {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.95rem;
+    line-height: 1.3;
+    text-transform: none;
+  }
+
+  .meta {
+    font-size: 0.76rem;
+    color: var(--c-text-dim);
+    line-height: 1.35;
+  }
+
+  .bottom {
+    margin-top: 0.45rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.76rem;
+  }
+
+  .grid-finish { color: var(--c-text-dim); }
+
+  .badges {
+    margin-left: auto;
+    display: flex;
+    gap: 0.3rem;
+  }
+
+  .badge {
+    padding: 0.05rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.66rem;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .badge.pole { background: var(--c-teal-deep); color: var(--c-text); }
+  .badge.fl { background: var(--c-purple-deep); color: var(--c-text); }
+  .badge.win-badge { background: var(--c-teal-bright); color: var(--c-bg-deep); }
+
+  .highlights {
+    margin-top: 0.5rem;
+    align-self: flex-start;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: var(--c-teal-bright);
+  }
+
+  .highlights:hover,
+  .highlights:focus-visible {
+    text-decoration: underline;
+  }
+</style>
