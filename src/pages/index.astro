@@ -37,7 +37,7 @@ const eras = ERA_ORDER.map((key) => juniorCareer.eras.find((e) => e.era === key)
 
   {/* tabindex=-1 makes the skip-link focus move robust across browsers */}
   <main id="story" tabindex="-1">
-  <section class="section" aria-labelledby="story-title">
+  <section class="section road" aria-labelledby="story-title">
     <div class="container">
       <p class="kicker">2006 → today</p>
       <h2 id="story-title">The Road</h2>
@@ -67,6 +67,10 @@ const eras = ERA_ORDER.map((key) => juniorCareer.eras.find((e) => e.era === key)
 
   <Footer />
 </Base>
+
+<script>
+  import '../scripts/motion';
+</script>
 
 <style>
   .lede {

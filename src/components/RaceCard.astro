@@ -114,6 +114,20 @@ const outcome = race.win ? 'win' : race.podium ? 'podium' : dnf ? 'dnf' : race.u
     }
   }
 
+  /* The JS ?motion override wins over the media query when present */
+  :global(html.motion-on) .card {
+    transition: translate 0.15s ease, background 0.15s ease;
+  }
+  :global(html.motion-on) .card:hover,
+  :global(html.motion-on) .card:focus-visible {
+    translate: 0 -3px;
+  }
+  :global(html.motion-off) .card,
+  :global(html.motion-off) .card:hover {
+    transition: none;
+    translate: none;
+  }
+
   .card.win { border-left-color: var(--c-teal-bright); }
   .card.podium { border-left-color: var(--c-silver); }
   .card.dnf { border-left-color: var(--c-red-deep); }

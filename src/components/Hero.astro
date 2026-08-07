@@ -204,4 +204,8 @@ const stats = [
       animation: none;
     }
   }
+
+  /* The JS ?motion override wins over the media query when present */
+  :global(html.motion-on) .scroll-cue { animation: bob 1.8s ease-in-out infinite; }
+  :global(html.motion-off) .scroll-cue { animation: none; }
 </style>
