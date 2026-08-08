@@ -9,7 +9,19 @@ The Astro build imports these files; nothing is fetched at runtime.
 | `driver.json` | Jolpica F1 API | `scripts/update_results.py` |
 | `junior-career.json` | Researched + adversarially fact-checked | Manually — junior series never change |
 | `research/` | Provenance: per-claim verification logs + critique | With `junior-career.json` |
+| `attributions.json` | Wikimedia Commons API | `scripts/fetch_images.py` (manual, review before commit) |
+| `signature-moments.json` | Hand-curated, oEmbed-verified video IDs | Manually |
 | `cache/jolpica/` | API response cache | automatic; delete to force a full refresh |
+
+`attributions.json` and the images it describes (`public/images/commons/`,
+33 files) are **committed**: `CommonsImage.astro` and the attributions page
+import the manifest at build time, so a fresh clone builds without running
+any Python. `scripts/fetch_images.py` only needs re-running to add images.
+
+The `youtubeVideoId` field in `seasons/*.json` is filled by
+`scripts/update_highlights.py` (needs `YOUTUBE_API_KEY`); `null` means
+never searched, `""` means searched and nothing found, and a string is a
+video ID. `update_results.py` preserves whatever is already there.
 
 ## junior-career.json
 
@@ -52,3 +64,17 @@ completeness critique behind the current dataset.
 The F1 era in this file holds only *records and milestones* (youngest-ever
 marks, first podium, and so on). Race-by-race F1 results live in
 `seasons/*.json` and are never duplicated here.
+
+## signature-moments.json
+
+Five hand-picked moments, each with an official-channel YouTube video ID.
+Prose here must not outrun `junior-career.json`: every claim in a moment's
+`text` has to be supported by that verified dataset. Before adding an ID,
+confirm the channel:
+
+```bash
+curl "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=VIDEO_ID&format=json"
+```
+
+`author_name` must be `FORMULA 1` or `Mercedes-AMG PETRONAS F1 Team` —
+broadcaster rips and fan uploads are rejected on principle.

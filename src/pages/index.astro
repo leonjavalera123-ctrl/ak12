@@ -5,6 +5,7 @@
 import Base from '../layouts/Base.astro';
 import Hero from '../components/Hero.astro';
 import EraPanel from '../components/EraPanel.astro';
+import SignatureMoments from '../components/SignatureMoments.astro';
 import SeasonSection from '../components/SeasonSection.astro';
 import Footer from '../components/Footer.astro';
 import juniorCareer from '../../data/junior-career.json';
@@ -48,11 +49,24 @@ const eras = ERA_ORDER.map((key) => juniorCareer.eras.find((e) => e.era === key)
 
       <div class="chapters">
         {eras.map((era, i) => (
-          <EraPanel era={era} index={i} />
+          <EraPanel
+            era={era}
+            index={i}
+            image={
+              era.era === 'bio'
+                ? {
+                    file: '2025-imola-gp-kimi-antonelli-cropped.jpg',
+                    alt: 'Kimi Antonelli in the paddock at Imola for the 2025 Emilia-Romagna Grand Prix — his home race, half an hour from Bologna.',
+                  }
+                : undefined
+            }
+          />
         ))}
       </div>
     </div>
   </section>
+
+  <SignatureMoments />
 
   <section aria-label="Formula 1 seasons, race by race" id="seasons">
     <div class="container seasons-head">
@@ -66,10 +80,22 @@ const eras = ERA_ORDER.map((key) => juniorCareer.eras.find((e) => e.era === key)
   </main>
 
   <Footer />
+
+  <!-- Shared lightbox for race-card highlights; iframe injected on demand -->
+  <dialog id="video-dialog" aria-labelledby="video-dialog-title">
+    <div class="dialog-head">
+      <h4 class="dialog-title" id="video-dialog-title"></h4>
+      <form method="dialog">
+        <button class="dialog-close" aria-label="Close video">✕</button>
+      </form>
+    </div>
+    <div class="dialog-video"></div>
+  </dialog>
 </Base>
 
 <script>
   import '../scripts/motion';
+  import '../scripts/embeds';
 </script>
 
 <style>
@@ -92,5 +118,49 @@ const eras = ERA_ORDER.map((key) => juniorCareer.eras.find((e) => e.era === key)
 
   .seasons-head {
     padding-bottom: 2.5rem;
+  }
+
+  #video-dialog {
+    width: min(60rem, calc(100vw - 2rem));
+    padding: 0.8rem;
+    background: var(--c-bg-deep);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius);
+    color: var(--c-text);
+  }
+
+  #video-dialog::backdrop {
+    background: rgba(3, 5, 5, 0.85);
+  }
+
+  .dialog-head {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .dialog-title {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  .dialog-close {
+    margin-left: auto;
+    padding: 0.25rem 0.6rem;
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-radius: 6px;
+    color: var(--c-text);
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  .dialog-close:hover,
+  .dialog-close:focus-visible {
+    background: var(--c-surface-2);
   }
 </style>

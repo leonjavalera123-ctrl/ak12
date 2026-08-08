@@ -1,9 +1,11 @@
 ---
 // One chapter of the career timeline: era heading, championship entries,
-// signature facts. Phase 2 stacks these vertically; Phase 3 lays them out
-// as panels in the horizontal scroll timeline — same markup, new axis.
+// signature facts, and (optionally) one Commons photo with its credit.
+// Phase 2 stacks these vertically; Phase 3 lays them out as panels in the
+// horizontal scroll timeline — same markup, new axis.
 // Every fact links its verification source (a hard Phase 1 guarantee).
 import { statLine } from '../lib/format';
+import CommonsImage from './CommonsImage.astro';
 
 interface Entry {
   series: string;
@@ -29,9 +31,11 @@ interface Props {
   factLimit?: number;
   entryLimit?: number;
   index: number;
+  /* file + alt of a license-verified image from data/attributions.json */
+  image?: { file: string; alt: string };
 }
 
-const { era, factLimit = 3, entryLimit = 8, index } = Astro.props;
+const { era, factLimit = 3, entryLimit = 8, index, image } = Astro.props;
 
 // Long eras (karting: 22 verified entries) show a bounded set of title
 // results, with a count of the rest; short eras show everything. The bound
@@ -59,6 +63,12 @@ const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
     </p>
     <h3 id={`era-${era.era}-title`}>{era.label}</h3>
   </header>
+
+  {image && (
+    <div class="portrait">
+      <CommonsImage file={image.file} alt={image.alt} />
+    </div>
+  )}
 
   {entries.length > 0 && era.entries[0].series !== 'Biography' && (
     <ul class:list={['entries', { compact }]} role="list">
@@ -113,6 +123,11 @@ const host = (url: string) => new URL(url).hostname.replace(/^www\./, '');
   .chapter {
     color: var(--c-teal-bright);
     font-weight: 900;
+  }
+
+  .portrait {
+    margin-top: 1.2rem;
+    max-width: 24rem;
   }
 
   .entries {

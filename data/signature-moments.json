@@ -1,0 +1,50 @@
+{
+  "_comment": "Hand-curated all-timer moments. videoId/videoTitle must be from an official channel — verify with: https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=<ID>&format=json (author_name must be FORMULA 1 or Mercedes-AMG PETRONAS F1 Team). All five below oEmbed-verified 2026-08-07; facts sourced from data/junior-career.json (two-source verified) — do not add a detail here that the dataset does not carry.",
+  "moments": [
+    {
+      "id": "australia-2025",
+      "kicker": "Australia · 16 March 2025",
+      "title": "The debut",
+      "text": "Sixteenth on the grid, rain falling, 18 years old. He crosses the line fourth — the second-youngest points scorer in Formula 1 history, behind only Max Verstappen. A penalty briefly demotes him; Mercedes gets it overturned on review.",
+      "videoId": "md9-jG4RzXs",
+      "videoTitle": "Race Highlights | 2025 Australian Grand Prix — FORMULA 1",
+      "champion": false
+    },
+    {
+      "id": "miami-2025",
+      "kicker": "Miami · 2 May 2025",
+      "title": "The record pole",
+      "text": "Sprint qualifying, sixth Grand Prix weekend of his career. Pole position at 18 years, 8 months and 7 days — the youngest polesitter in any Formula 1 qualifying format, breaking a Sebastian Vettel record that had stood since 2008. By more than two years.",
+      "videoId": "snjpwH3jReE",
+      "videoTitle": "Sprint Qualifying Highlights | 2025 Miami Grand Prix — FORMULA 1",
+      "champion": false
+    },
+    {
+      "id": "canada-2025",
+      "kicker": "Canada · 15 June 2025",
+      "title": "The first podium",
+      "text": "Third place in Montreal at 18 years and 294 days, behind race-winner teammate Russell — the first Italian on a Formula 1 podium since Jarno Trulli in 2009. Then he flew home to Bologna and sat his high-school final exams. Passed those too.",
+      "videoId": "93ZnZF_zWds",
+      "videoTitle": "Race Highlights | 2025 Canadian Grand Prix — FORMULA 1",
+      "champion": false
+    },
+    {
+      "id": "china-2026",
+      "kicker": "China · 15 March 2026",
+      "title": "The maiden win",
+      "text": "First Grand Prix pole, converted into a first Grand Prix win — the youngest Grand Prix polesitter in F1 history, only the second teenager ever to win a Grand Prix after Verstappen, and the first Italian to win a Formula 1 race in twenty years. Fisichella, Malaysia 2006, was the last.",
+      "videoId": "t8HpVlineX4",
+      "videoTitle": "Race Highlights | 2026 Chinese Grand Prix — FORMULA 1",
+      "champion": false
+    },
+    {
+      "id": "monaco-2026",
+      "kicker": "Monaco · 7 June 2026",
+      "title": "The grand chelem",
+      "text": "Pole. Victory. Every lap led. Fastest lap. At 19, the youngest driver ever to take a grand chelem — and the youngest winner Monaco has ever crowned. His fifth consecutive victory, in the race every driver grows up dreaming about.",
+      "videoId": "ipOT9ruRobc",
+      "videoTitle": "Race Highlights | 2026 Monaco Grand Prix — FORMULA 1",
+      "champion": false
+    }
+  ]
+}
